@@ -31,8 +31,8 @@ const processStages = [
 
 export default function ProcessFlow() {
   return (
-    <section id="process" className="bg-[#0A417A] text-white py-16 lg:py-20 px-4 relative overflow-hidden">
-      <div className="container max-w-7xl mx-auto">
+    <section id="process" className="bg-[#0A417A] text-white py-16 lg:py-20 relative overflow-hidden">
+      <div className="w-full px-4 sm:px-8 lg:px-12 xl:px-16">
         {/* Section Header */}
         <div className="text-center max-w-4xl mx-auto mb-14">
           <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight mb-4">

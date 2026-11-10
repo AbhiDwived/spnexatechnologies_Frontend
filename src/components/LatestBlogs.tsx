@@ -28,8 +28,8 @@ const blogs = [
 
 export default function LatestBlogs() {
   return (
-    <section id="blogs" className="py-20 px-4 bg-slate-50">
-      <div className="container max-w-7xl mx-auto">
+    <section id="blogs" className="py-20 bg-slate-50">
+      <div className="w-full px-4 sm:px-8 lg:px-12 xl:px-16">
         <div className="text-center mb-16">
           <span className="text-blue-600 font-bold uppercase tracking-widest text-xs mb-2 block">
             Insights & Updates

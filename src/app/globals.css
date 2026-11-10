@@ -14,10 +14,38 @@
   --font-mono: var(--font-geist-mono);
 }
 
+html,
 body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+/* Ensure full width layout for complete website */
+main {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Global full-width container override across the complete website */
+.container,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl,
+.container-xxl,
+.container-fluid {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: clamp(1rem, 3.5vw, 4rem) !important;
+  padding-right: clamp(1rem, 3.5vw, 4rem) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 /* Hide scrollbar universally for no-scrollbar containers */

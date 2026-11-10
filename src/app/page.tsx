@@ -8,11 +8,11 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import IndustriesWeServe from "@/components/IndustriesWeServe";
 import Testimonials from "@/components/Testimonials";
 import LatestBlogs from "@/components/LatestBlogs";
-import Footer from "@/components/Footer";
+import TrickleFooter from "@/components/TrickleFooter";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white text-slate-900 flex flex-col font-sans antialiased selection:bg-blue-600 selection:text-white">
+    <main className="w-full min-h-screen bg-white text-slate-900 flex flex-col font-sans antialiased selection:bg-blue-600 selection:text-white">
       {/* Reusable Navbar Component */}
       <Navbar />
 
@@ -41,7 +41,7 @@ export default function Home() {
       <LatestBlogs />
 
       {/* Reusable Multi-Column Footer Component */}
-      <Footer />
+      <TrickleFooter />
     </main>
   );
 }

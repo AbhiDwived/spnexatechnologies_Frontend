@@ -32,8 +32,8 @@ export default function TrickleFooter() {
   ];
 
   return (
-    <footer className="bg-[#093563] bg-gradient-to-b from-[#083363] via-[#072B54] to-[#052142] text-slate-200 pt-14 pb-8 px-4 border-t border-blue-900/60">
-      <div className="container max-w-7xl mx-auto">
+    <footer className="bg-[#093563] bg-gradient-to-b from-[#083363] via-[#072B54] to-[#052142] text-slate-200 pt-14 pb-8 border-t border-blue-900/60">
+      <div className="w-full px-4 sm:px-8 lg:px-12 xl:px-16">
         {/* Main 4-Column Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8 pb-12 border-b border-blue-800/40">
           
@@ -178,7 +178,7 @@ export default function TrickleFooter() {
 
           {/* Copyright & ISO Badge */}
           <div className="flex flex-wrap items-center justify-center gap-4 text-xs text-blue-200/80">
-            <span>© 2024 Trickle Solutions. All rights reserved.</span>
+            <span>© {new Date().getFullYear()} Trickle Solutions. All rights reserved.</span>
             <span className="hidden sm:inline">•</span>
             <span className="inline-flex items-center gap-1 bg-blue-900/40 px-2.5 py-1 rounded border border-blue-700/50 text-[11px]">
               <i className="bi bi-shield-check text-cyan-300"></i>

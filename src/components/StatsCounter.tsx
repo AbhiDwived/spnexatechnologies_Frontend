@@ -42,7 +42,7 @@ export default function StatsCounter() {
         <div className="absolute top-0 left-0 w-24 sm:w-36 h-full bg-[#90CDF4] clip-path-fold opacity-90 transform -skew-x-12"></div>
       </div>
 
-      <div className="container max-w-7xl mx-auto px-4">
+      <div className="w-full px-4 sm:px-8 lg:px-12 xl:px-16">
         <div className="row items-center g-8 lg:g-12">
           {/* Left 2x2 Grid with Dashed Border Cards */}
           <div className="col-lg-6">

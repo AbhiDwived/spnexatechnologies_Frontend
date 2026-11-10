@@ -65,8 +65,8 @@ export default function Services() {
   const currentService = servicesData[activeTab];
 
   return (
-    <section id="services" className="bg-[#0A417A] text-white py-10 sm:py-14 px-4 relative overflow-hidden">
-      <div className="container max-w-7xl mx-auto">
+    <section id="services" className="bg-[#0A417A] text-white py-10 sm:py-14 relative overflow-hidden">
+      <div className="w-full px-4 sm:px-8 lg:px-12 xl:px-16">
         {/* Section Header */}
         <div className="text-center mb-6 sm:mb-8">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight mb-2">
@@ -79,7 +79,7 @@ export default function Services() {
         </div>
 
         {/* Category Pills Bar (White border follows whichever button the cursor moves to) */}
-        <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4 mb-8 sm:mb-10 py-3 px-2 max-w-5xl mx-auto overflow-visible">
+        <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4 mb-8 sm:mb-10 py-3 px-2 w-full mx-auto overflow-visible">
           {servicesData.map((tab, idx) => {
             const isActive = activeTab === idx;
             return (
@@ -104,7 +104,7 @@ export default function Services() {
         {/* Active Service Card Container */}
         <div
           style={{ borderRadius: "24px" }}
-          className="bg-[#083463]/90 border border-white/30 p-5 sm:p-8 lg:p-10 shadow-2xl relative max-w-6xl mx-auto"
+          className="bg-[#083463]/90 border border-white/30 p-6 sm:p-10 lg:p-12 shadow-2xl relative w-full"
         >
           <div className="row items-center g-6">
             {/* Left Content Column */}

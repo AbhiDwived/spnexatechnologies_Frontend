@@ -339,7 +339,7 @@ export default function Navbar({ defaultActive = "Home" }: NavbarProps) {
             : "bg-white/90 backdrop-blur-md shadow-[0_2px_15px_rgba(0,0,0,0.03)] border-b border-slate-100 py-3.5"
         }`}
       >
-        <div className="container max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between gap-4">
+        <div className="w-full px-4 sm:px-8 lg:px-12 xl:px-16 flex items-center justify-between gap-4">
           
           {/* Luxury Brand Logo Lockup */}
           <Link

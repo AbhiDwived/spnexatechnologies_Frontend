@@ -56,8 +56,8 @@ export default function IndustriesWeServe() {
   return (
     <section id="solutions" className="relative">
       {/* Top Half: Light Background Grid */}
-      <div className="py-14 sm:py-16 px-4 bg-slate-900 text-white">
-        <div className="container max-w-7xl mx-auto">
+      <div className="py-14 sm:py-16 bg-slate-900 text-white">
+        <div className="w-full px-4 sm:px-8 lg:px-12 xl:px-16">
           <div className="text-center mb-10 sm:mb-12">
             <span className="text-blue-400 font-bold uppercase tracking-widest text-xs mb-2 block">
               Domain Expertise
@@ -88,8 +88,8 @@ export default function IndustriesWeServe() {
       </div>
 
       {/* Bottom Half: Dark Navy Section with Zig-Zag Chevron Image Pattern */}
-      <div className="bg-[#0B2545] text-white py-20 px-4">
-        <div className="container max-w-7xl mx-auto">
+      <div className="bg-[#0B2545] text-white py-20">
+        <div className="w-full px-4 sm:px-8 lg:px-12 xl:px-16">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-3">
               Specialized Industry Solutions

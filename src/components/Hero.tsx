@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <section className="relative bg-white overflow-hidden py-10 sm:py-16 lg:py-20 px-4 min-h-[580px] lg:min-h-[620px] flex items-center">
+    <section className="relative bg-white overflow-hidden py-10 sm:py-16 lg:py-20 min-h-[580px] lg:min-h-[620px] flex items-center">
       {/* 3 Diagonal Geometric Blue Bands */}
       <div className="absolute top-0 right-0 w-full lg:w-3/5 h-full pointer-events-none overflow-hidden z-0">
         {/* Band 1 */}
@@ -20,7 +20,7 @@ export default function Hero() {
       <div className="hidden sm:block absolute top-28 right-5/12 w-6 sm:w-8 h-6 sm:h-8 rounded-full bg-[#1E4D8C] z-10 pointer-events-none"></div>
       <div className="hidden sm:block absolute bottom-44 right-1/2 w-5 sm:w-6 h-5 sm:h-6 rounded-full bg-slate-900 z-10 pointer-events-none"></div>
 
-      <div className="container max-w-7xl mx-auto relative z-10">
+      <div className="w-full px-4 sm:px-8 lg:px-12 xl:px-16 relative z-10">
         <div className="row items-center g-8">
           {/* Left Text Column */}
           <div className="col-lg-7 col-12">

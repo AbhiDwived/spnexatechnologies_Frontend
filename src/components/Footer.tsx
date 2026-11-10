@@ -7,8 +7,8 @@ export default function Footer() {
   return (
     <footer id="contact" className="bg-[#0B2545] text-slate-300 border-t border-slate-800">
       {/* Top CTA Banner */}
-      <div className="border-b border-slate-800/80 py-12 px-4">
-        <div className="container max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-6">
+      <div className="border-b border-slate-800/80 py-12">
+        <div className="w-full px-4 sm:px-8 lg:px-12 xl:px-16 flex flex-col lg:flex-row items-center justify-between gap-6">
           <div>
             <h3 className="text-2xl md:text-3xl font-extrabold text-white">
               Ready to Build Your Next Big Product?
@@ -28,8 +28,8 @@ export default function Footer() {
       </div>
 
       {/* Main Multi-Column Footer Grid */}
-      <div className="py-16 px-4">
-        <div className="container max-w-7xl mx-auto">
+      <div className="py-16">
+        <div className="w-full px-4 sm:px-8 lg:px-12 xl:px-16">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
             {/* Col 1: About */}
             <div className="space-y-4">
@@ -145,8 +145,8 @@ export default function Footer() {
       </div>
 
       {/* Copyright Bar */}
-      <div className="bg-slate-950 py-6 px-4 border-t border-slate-800 text-slate-500 text-xs text-center">
-        <div className="container max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
+      <div className="bg-slate-950 py-6 border-t border-slate-800 text-slate-500 text-xs text-center">
+        <div className="w-full px-4 sm:px-8 lg:px-12 xl:px-16 flex flex-col sm:flex-row items-center justify-between gap-3">
           <div>© {new Date().getFullYear()} ShivamSoft. All rights reserved.</div>
           <div className="flex gap-4">
             <a href="#" className="hover:text-slate-400 text-decoration-none">

@@ -4,8 +4,8 @@ import React from "react";
 
 export default function WhyChooseUs() {
   return (
-    <section id="about" className="py-16 lg:py-24 px-4 bg-white relative">
-      <div className="container max-w-7xl mx-auto">
+    <section id="about" className="py-16 lg:py-24 bg-white relative">
+      <div className="w-full px-4 sm:px-8 lg:px-12 xl:px-16">
         {/* Section Header */}
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-black text-slate-950 tracking-tight mb-4">

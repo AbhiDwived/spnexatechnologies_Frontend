@@ -43,8 +43,8 @@ export default function Testimonials() {
   const current = reviews[currentIndex];
 
   return (
-    <section className="py-20 px-4 bg-white border-b border-slate-100 relative">
-      <div className="container max-w-5xl mx-auto">
+    <section className="py-20 bg-white border-b border-slate-100 relative">
+      <div className="w-full px-4 sm:px-8 lg:px-12 xl:px-16">
         <div className="text-center mb-12">
           <span className="text-blue-600 font-bold uppercase tracking-widest text-xs mb-2 block">
             Testimonials
@@ -54,13 +54,13 @@ export default function Testimonials() {
           </h2>
         </div>
 
-        <div className="bg-slate-50 border border-slate-200/80 rounded-3xl p-8 lg:p-12 shadow-xl relative">
+        <div className="bg-slate-50 border border-slate-200/80 rounded-3xl p-8 lg:p-12 shadow-xl relative w-full">
           {/* Big Quote Mark */}
           <div className="text-blue-600/15 text-7xl font-serif font-black absolute top-6 left-8 pointer-events-none">
             “
           </div>
 
-          <div className="relative z-10 space-y-6 text-center max-w-3xl mx-auto">
+          <div className="relative z-10 space-y-6 text-center max-w-4xl mx-auto">
             {/* Rating Stars */}
             <div className="flex justify-center gap-1 text-amber-400 text-lg">
               {[...Array(current.rating)].map((_, i) => (
