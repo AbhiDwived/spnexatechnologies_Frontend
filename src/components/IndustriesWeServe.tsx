@@ -1,143 +1,157 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+
+const appCards = [
+  {
+    icon: "/images/industry-icon-education.png",
+    title: "Education App Development",
+    desc: "Devherds serves schools, colleges, and edtech companies by developing education apps that include features such as virtual classrooms,online assessment, tracking of student progress, and interactive content.",
+    href: "#",
+    photo: "/images/industry-photo-education.png",
+    flipPhoto: false,
+  },
+  {
+    icon: "/images/industry-icon-grocery.png",
+    title: "Grocery Delivery App Development",
+    desc: "We build effective grocery delivery applications that cater to the fast-growing demand of online shopping.Our solutions include inventory management, real-time tracking, secure payment gateways, and user-friendly interfaces.",
+    href: "/grocery-delivery-app",
+    photo: "/images/industry-photo-grocery.png",
+    flipPhoto: true,
+  },
+  {
+    icon: "/images/industry-icon-ecommerce.png",
+    title: "E-commerce App Development",
+    desc: "We develop dynamic e-commerce apps that sell and increase customer experiences. Our solutions include product catalogs, shopping carts, multiple payment gateways, and customer reviews.",
+    href: "/ecommerce-app",
+    photo: "/images/industry-photo-ecommerce.png",
+    flipPhoto: false,
+  },
+  {
+    icon: "/images/industry-icon-salon.png",
+    title: "Salon App Development",
+    desc: "Our salon application development services emphasize the ease of appointment booking and customer management for beauty and wellness businesses.",
+    href: "/salon-app",
+    photo: "/images/industry-photo-salon.png",
+    flipPhoto: true,
+  },
+];
 
 export default function IndustriesWeServe() {
-  const industries = [
-    {
-      title: "Healthcare & MedTech",
-      desc: "HIPAA compliant telehealth portals, patient management systems, and IoT medical devices.",
-      icon: "bi-heart-pulse",
-    },
-    {
-      title: "Fintech & Banking",
-      desc: "Secure payment gateways, cryptocurrency platforms, and automated fraud detection systems.",
-      icon: "bi-bank",
-    },
-    {
-      title: "E-Commerce & Retail",
-      desc: "High conversion online storefronts, inventory management, and multi-vendor marketplaces.",
-      icon: "bi-cart-check",
-    },
-    {
-      title: "Education & E-Learning",
-      desc: "Interactive LMS portals, virtual classrooms, and gamified student progress tracking.",
-      icon: "bi-mortarboard",
-    },
-  ];
-
-  const verticalFeatures = [
-    {
-      id: "01",
-      title: "Healthcare & Medical Software",
-      desc: "Building secure, scalable electronic health record systems and AI-powered diagnostic platforms.",
-      img: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80",
-    },
-    {
-      id: "02",
-      title: "Fintech & Smart Payments",
-      desc: "Instant money transfers, micro-lending portals, and bank-grade encryption infrastructure.",
-      img: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=800&q=80",
-    },
-    {
-      id: "03",
-      title: "Logistics & Supply Chain",
-      desc: "Real-time GPS fleet tracking, automated warehouse operations, and route optimization algorithms.",
-      img: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80",
-    },
-    {
-      id: "04",
-      title: "E-Commerce & Digital Outlets",
-      desc: "Omnichannel shopping platforms, AI recommendation engines, and high-load checkout funnels.",
-      img: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
-    },
-  ];
-
   return (
-    <section id="solutions" className="relative">
-      {/* Top Half: Light Background Grid */}
-      <div className="py-14 sm:py-16 bg-slate-900 text-white">
-        <div className="w-full px-4 sm:px-8 lg:px-12 xl:px-16">
-          <div className="text-center mb-10 sm:mb-12">
-            <span className="text-blue-400 font-bold uppercase tracking-widest text-xs mb-2 block">
-              Domain Expertise
-            </span>
-            <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight mb-3">
-              Industries We Serve
-            </h2>
-            <div className="w-14 h-1 bg-blue-500 mx-auto rounded-full"></div>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6">
-            {industries.map((item, idx) => (
-              <div
-                key={idx}
-                className="bg-white text-slate-900 px-6 py-4 sm:py-5 rounded-2xl shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all border border-slate-100 group"
-              >
-                <div className="w-10 h-10 rounded-xl bg-blue-100 text-blue-700 flex items-center justify-center text-xl font-bold mb-2.5 group-hover:bg-blue-600 group-hover:text-white transition-colors">
-                  <i className={`bi ${item.icon}`}></i>
-                </div>
-                <h3 className="text-lg font-bold mb-1 text-slate-900">{item.title}</h3>
-                <p className="text-slate-600 text-xs sm:text-sm leading-relaxed mb-0">
-                  {item.desc}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
+    <section
+      id="solutions"
+      className="relative overflow-hidden"
+      style={{ background: "#c0dce8" }}
+    >
+      {/* Section Heading — centered, top: 50px per Figma */}
+      <div className="flex justify-center" style={{ paddingTop: 50, paddingBottom: 30 }}>
+        <h2 className="text-[50px] font-extrabold text-white leading-normal whitespace-nowrap">
+          Industries We Serve
+        </h2>
       </div>
 
-      {/* Bottom Half: Dark Navy Section with Zig-Zag Chevron Image Pattern */}
-      <div className="bg-[#0B2545] text-white py-20">
-        <div className="w-full px-4 sm:px-8 lg:px-12 xl:px-16">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-3">
-              Specialized Industry Solutions
-            </h2>
-            <p className="text-blue-300 text-sm">Tailored engineering for complex domain requirements</p>
+      {/* Industry Rows — 4 rows, each 353px tall */}
+      {appCards.map((card, idx) => (
+        <div
+          key={idx}
+          className="relative overflow-hidden flex items-center"
+          style={{
+            height: 353,
+            backgroundImage:
+              "linear-gradient(223.44deg, rgba(0,0,0,0.3) 29.8%, rgba(0,173,218,0.3) 77.6%)",
+          }}
+        >
+          {/* Left: Text Content */}
+          <div
+            className="relative z-10 flex flex-col justify-center"
+            style={{ width: "57%", paddingLeft: 100, paddingRight: 40 }}
+          >
+            {/* Icon + Title */}
+            <div className="flex items-center gap-4 mb-[20px]">
+              <div
+                className="w-[50px] h-[50px] bg-white rounded-[12px] flex items-center justify-center shrink-0"
+                style={{ boxShadow: "0 0 4px rgba(0,0,0,0.1)" }}
+              >
+                <div
+                  className="w-10 h-10"
+                  style={{
+                    background: "#165ea6",
+                    WebkitMaskImage: `url(${card.icon})`,
+                    maskImage: `url(${card.icon})`,
+                    WebkitMaskSize: "40px 40px",
+                    maskSize: "40px 40px",
+                    WebkitMaskRepeat: "no-repeat",
+                    maskRepeat: "no-repeat",
+                    WebkitMaskPosition: "center",
+                    maskPosition: "center",
+                  }}
+                />
+              </div>
+              <h3 className="text-[26px] font-bold text-white leading-tight whitespace-nowrap">
+                {card.title}
+              </h3>
+            </div>
+
+            {/* Description */}
+            <p className="text-[18px] text-white leading-[25px] mb-[25px]">
+              {card.desc}
+            </p>
+
+            {/* Button — 42px tall, rounded-[22px], white glow */}
+            <div>
+              <Link
+                href={card.href}
+                className="inline-flex items-center justify-center text-white text-[18px] font-medium px-[20px] rounded-[22px] hover:opacity-90 transition-opacity text-decoration-none"
+                style={{
+                  height: 42,
+                  backgroundImage:
+                    "linear-gradient(225.9deg, rgb(29,51,74) 29.8%, rgb(22,94,166) 77.6%)",
+                  boxShadow: "0px 0px 7px 0px white",
+                }}
+              >
+                Explore More →
+              </Link>
+            </div>
           </div>
 
-          <div className="space-y-12">
-            {verticalFeatures.map((item, idx) => (
-              <div
-                key={idx}
-                className="row items-center g-8 bg-slate-900/60 border border-slate-800 rounded-3xl p-6 lg:p-8"
-              >
-                <div className={`col-lg-6 ${idx % 2 === 1 ? "order-lg-2" : ""}`}>
-                  <div className="space-y-4">
-                    <span className="text-blue-400 font-bold text-xs uppercase tracking-wider bg-blue-500/10 px-3 py-1 rounded-md border border-blue-500/20">
-                      Domain Feature {item.id}
-                    </span>
-                    <h3 className="text-2xl lg:text-3xl font-extrabold text-white">
-                      {item.title}
-                    </h3>
-                    <p className="text-slate-300 text-sm lg:text-base leading-relaxed">
-                      {item.desc}
-                    </p>
-                    <a
-                      href="#contact"
-                      className="inline-flex items-center gap-2 text-blue-400 font-bold text-xs tracking-wider uppercase hover:text-blue-300 transition-colors text-decoration-none pt-2"
-                    >
-                      <span>READ MORE CASE STUDY</span>
-                      <i className="bi bi-arrow-right"></i>
-                    </a>
-                  </div>
-                </div>
-
-                <div className={`col-lg-6 ${idx % 2 === 1 ? "order-lg-1" : ""}`}>
-                  <div className="relative rounded-2xl overflow-hidden border border-slate-700 shadow-xl group">
-                    <img
-                      src={item.img}
-                      alt={item.title}
-                      className="w-full h-64 lg:h-72 object-cover group-hover:scale-105 transition-transform duration-500"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
-                  </div>
-                </div>
-              </div>
-            ))}
+          {/* Right: Diamond-shaped industry photo (preserve PNG transparency) */}
+          <div
+            className="absolute top-0"
+            style={{ right: 0, width: 526, height: 353 }}
+          >
+            <Image
+              src={card.photo}
+              alt={card.title}
+              width={526}
+              height={353}
+              className="absolute top-0 left-0"
+              style={{
+                width: 526,
+                height: 353,
+                ...(card.flipPhoto ? { transform: "scaleX(-1)" } : {}),
+              }}
+            />
           </div>
         </div>
+      ))}
+
+      {/* Bottom centered button */}
+      <div className="flex justify-center" style={{ paddingTop: 40, paddingBottom: 50 }}>
+        <Link
+          href="#"
+          className="inline-flex items-center justify-center text-white text-[18px] font-medium px-[20px] rounded-[22px] hover:opacity-90 transition-opacity text-decoration-none"
+          style={{
+            height: 42,
+            backgroundImage:
+              "linear-gradient(225.9deg, rgb(29,51,74) 29.8%, rgb(22,94,166) 77.6%)",
+            boxShadow: "0px 0px 7px 0px white",
+          }}
+        >
+          Explore More →
+        </Link>
       </div>
     </section>
   );

@@ -1,31 +1,15 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 
 const reviews = [
   {
     quote:
-      "ShivamSoft transformed our legacy banking software into a high-performance, cloud-native microservice architecture. Their engineering precision, speed, and 24/7 dedication exceeded our highest expectations.",
-    name: "Alexander Wright",
-    role: "CTO, FinTech Global Inc.",
-    avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80",
-    rating: 5,
-  },
-  {
-    quote:
-      "The UI/UX design and mobile app created by ShivamSoft helped us scale from 10k to over 500k active monthly users. The Next.js web application is blazingly fast!",
-    name: "Sophia Martinez",
-    role: "VP Product, E-Commerce Cloud",
-    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80",
-    rating: 5,
-  },
-  {
-    quote:
-      "Their agile process and bi-weekly sprint demos kept us completely aligned throughout the 6-month development cycle. Highly recommended software partner!",
-    name: "David Chen",
-    role: "Founder & CEO, HealthTech AI",
-    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80",
-    rating: 5,
+      "Hi there. Just wanted to give a quick shoutout to Pankaj and Deepak from Devherds. They've done amazing work for me over the past year and a half now, and they never disappoint. Honestly, they are diamonds in the rough. If you're ever looking to create a startup or produce some good work, they're definitely the people for you. So I would highly recommend them.",
+    name: "Alexander McCaig",
+    role: "Co-Founder & CEO,Tartle",
+    avatar: "/images/testimonial-alexander.png",
   },
 ];
 
@@ -43,75 +27,64 @@ export default function Testimonials() {
   const current = reviews[currentIndex];
 
   return (
-    <section className="py-20 bg-white border-b border-slate-100 relative">
-      <div className="w-full px-4 sm:px-8 lg:px-12 xl:px-16">
-        <div className="text-center mb-12">
-          <span className="text-blue-600 font-bold uppercase tracking-widest text-xs mb-2 block">
-            Testimonials
-          </span>
-          <h2 className="text-3xl md:text-5xl font-extrabold text-slate-900 tracking-tight">
-            What Our Client Say About Us
-          </h2>
-        </div>
+    <section className="bg-white py-10 relative">
+      <div className="w-full px-[100px]">
+        {/* Heading — left-aligned, exact from Figma */}
+        <h2 className="text-[50px] font-extrabold text-black mb-8 leading-normal">
+          What Our Client Say About Us
+        </h2>
 
-        <div className="bg-slate-50 border border-slate-200/80 rounded-3xl p-8 lg:p-12 shadow-xl relative w-full">
-          {/* Big Quote Mark */}
-          <div className="text-blue-600/15 text-7xl font-serif font-black absolute top-6 left-8 pointer-events-none">
-            “
+        <div className="flex items-start gap-6">
+          {/* Quote icon */}
+          <div className="shrink-0 mt-2">
+            <Image src="/images/testimonial-quote.png" alt="quote" width={61} height={46} />
           </div>
 
-          <div className="relative z-10 space-y-6 text-center max-w-4xl mx-auto">
-            {/* Rating Stars */}
-            <div className="flex justify-center gap-1 text-amber-400 text-lg">
-              {[...Array(current.rating)].map((_, i) => (
-                <i key={i} className="bi bi-star-fill"></i>
-              ))}
+          {/* Quote text */}
+          <p className="text-[20px] text-black font-normal leading-relaxed flex-1">
+            {current.quote}
+          </p>
+
+          {/* Right side: reviewer + nav */}
+          <div className="shrink-0 flex flex-col items-start gap-3 min-w-[140px]">
+            {/* Reviewer */}
+            <div className="flex flex-col items-start">
+              <div className="w-[51px] h-[47px] overflow-hidden mb-2">
+                <Image
+                  src={current.avatar}
+                  alt={current.name}
+                  width={51}
+                  height={47}
+                  className="object-cover w-full h-full"
+                />
+              </div>
+              <p className="text-[18px] text-black font-normal leading-normal">{current.name}</p>
+              <p className="text-[12px] text-black/45 font-normal">{current.role}</p>
             </div>
 
-            {/* Review Quote Text */}
-            <p className="text-slate-700 text-lg md:text-xl font-medium leading-relaxed italic">
-              &quot;{current.quote}&quot;
-            </p>
-
-            {/* Author Profile */}
-            <div className="flex flex-col items-center justify-center pt-4">
-              <img
-                src={current.avatar}
-                alt={current.name}
-                className="w-16 h-16 rounded-full object-cover border-2 border-blue-600 shadow-md mb-3"
-              />
-              <div className="font-extrabold text-slate-900 text-base">{current.name}</div>
-              <div className="text-blue-600 text-xs font-semibold">{current.role}</div>
-            </div>
-
-            {/* Slider Navigation Buttons */}
-            <div className="flex justify-center items-center gap-3 pt-6">
+            {/* Navigation arrows */}
+            <div className="flex items-center gap-2 mt-2">
               <button
                 onClick={prevReview}
-                className="w-10 h-10 rounded-full border border-slate-300 bg-white text-slate-700 hover:bg-blue-600 hover:text-white hover:border-blue-600 transition-colors flex items-center justify-center shadow-sm"
+                className="w-12 h-12 rounded-full border border-black/20 flex items-center justify-center hover:bg-slate-100 transition-colors bg-white"
                 aria-label="Previous review"
               >
-                <i className="bi bi-chevron-left"></i>
+                <i className="bi bi-arrow-left text-base"></i>
               </button>
-              <div className="flex gap-1.5">
-                {reviews.map((_, i) => (
-                  <button
-                    key={i}
-                    onClick={() => setCurrentIndex(i)}
-                    className={`w-2.5 h-2.5 rounded-full transition-all ${
-                      currentIndex === i ? "bg-blue-600 w-6" : "bg-slate-300"
-                    }`}
-                    aria-label={`Go to slide ${i + 1}`}
-                  />
-                ))}
-              </div>
               <button
                 onClick={nextReview}
-                className="w-10 h-10 rounded-full border border-slate-300 bg-white text-slate-700 hover:bg-blue-600 hover:text-white hover:border-blue-600 transition-colors flex items-center justify-center shadow-sm"
+                className="w-12 h-12 rounded-full border border-black/20 flex items-center justify-center hover:bg-slate-100 transition-colors bg-white"
                 aria-label="Next review"
               >
-                <i className="bi bi-chevron-right"></i>
+                <i className="bi bi-arrow-right text-base"></i>
               </button>
+            </div>
+
+            {/* All Reviews */}
+            <div className="text-right w-full mt-auto">
+              <a href="#" className="text-[16px] text-black font-semibold hover:text-blue-600 text-decoration-none">
+                All Reviews
+              </a>
             </div>
           </div>
         </div>

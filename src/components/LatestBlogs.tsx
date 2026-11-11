@@ -1,84 +1,84 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 
 const blogs = [
   {
-    title: "Why Next.js App Router is the Future of Enterprise Web Apps",
-    category: "Web Development",
-    date: "Oct 05, 2026",
-    excerpt: "Discover how Server Components and Turbopack improve page load speed by up to 60%.",
-    img: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80",
+    cover: "/images/blog-cover-1.png",
+    coverHeight: 167,
+    tag: "BLOG",
+    title: "START BUSINESS WITH TAXI BOOKING APP LIKE LYFT",
+    excerpt:
+      "Start Business With Taxi Booking App Like Lyft – The dynamic world of developing a taxi booking app akin to the renowned Lyft...",
+    href: "/blogs",
   },
   {
-    title: "10 Essential UI/UX Design Principles for Higher Conversion Rates",
-    category: "UI/UX Design",
-    date: "Sep 28, 2026",
-    excerpt: "Learn how subtle micro-animations and accessibility compliance drive product engagement.",
-    img: "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?auto=format&fit=crop&w=600&q=80",
+    cover: "/images/blog-cover-2.png",
+    coverHeight: 162,
+    tag: "BLOG",
+    title: "TOP 10 TAXI BOOKING APPS IN 2024",
+    excerpt:
+      "Top 10 Taxi Booking Apps In 2024 – When was the last time you waited for a cab outside on the sidewalk? You mean, years ago? With the advent of taxi booking apps...",
+    href: "/blogs",
   },
   {
-    title: "Building Microservices Architecture with AWS & Docker Containers",
-    category: "Cloud & DevOps",
-    date: "Sep 20, 2026",
-    excerpt: "A step-by-step guide to deploying scalable, zero-downtime microservices on cloud infrastructure.",
-    img: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=600&q=80",
+    cover: "/images/blog-cover-3.png",
+    coverHeight: 167,
+    tag: "BLOG",
+    title: "RIDING INNOVATION: THE COMPREHENSIVE GUIDE TO TAXI ....",
+    excerpt:
+      "Due to the fast growth of the world's population, the transportation industry has experienced significant...",
+    href: "/blogs",
   },
 ];
 
 export default function LatestBlogs() {
   return (
-    <section id="blogs" className="py-20 bg-slate-50">
-      <div className="w-full px-4 sm:px-8 lg:px-12 xl:px-16">
-        <div className="text-center mb-16">
-          <span className="text-blue-600 font-bold uppercase tracking-widest text-xs mb-2 block">
-            Insights & Updates
-          </span>
-          <h2 className="text-3xl md:text-5xl font-extrabold text-slate-900 tracking-tight mb-3">
-            Latest Blogs
-          </h2>
-          <div className="w-16 h-1 bg-blue-600 mx-auto rounded-full"></div>
-        </div>
+    <section className="bg-white py-12">
+      <div className="w-full px-[100px]">
+        {/* Heading */}
+        <h2 className="text-[50px] font-extrabold text-black text-center mb-3 leading-normal">
+          Latest Blogs
+        </h2>
+        <p className="text-[18px] text-[#090808] text-center mb-8 leading-normal">
+          Check out our newest blog posts for the latest<br />
+          insights and updates. Dive into our latest articles to stay informed and inspired!.
+        </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {blogs.map((post, idx) => (
-            <article
+        {/* Blog Cards Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {blogs.map((blog, idx) => (
+            <div
               key={idx}
-              className="bg-white rounded-2xl overflow-hidden border border-slate-200/80 shadow-lg hover:shadow-2xl transition-all duration-300 flex flex-col group"
+              className="bg-white rounded-[20px] overflow-hidden relative"
+              style={{ boxShadow: "0px 0px 3px rgba(0,0,0,0.25)" }}
             >
-              <div className="relative overflow-hidden h-52">
-                <img
-                  src={post.img}
-                  alt={post.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              {/* Cover Image */}
+              <div className="relative w-full overflow-hidden rounded-t-[20px]" style={{ height: blog.coverHeight }}>
+                <Image
+                  src={blog.cover}
+                  alt={blog.title}
+                  fill
+                  className="object-cover"
                 />
-                <div className="absolute top-4 left-4 bg-blue-700 text-white text-xs font-bold px-3 py-1 rounded-full shadow-md">
-                  {post.category}
+                {/* Code Fire logo badge */}
+                <div className="absolute top-2 left-2 bg-white rounded-[20px] px-3 py-0.5">
+                  <Image src="/images/blog-codefire-logo.png" alt="Code Fire" width={46} height={9} className="object-contain" />
                 </div>
               </div>
 
-              <div className="p-6 flex flex-col flex-grow justify-between">
-                <div>
-                  <div className="text-xs text-slate-400 font-medium mb-2 flex items-center gap-1">
-                    <i className="bi bi-calendar3 text-blue-600"></i> {post.date}
-                  </div>
-                  <h3 className="text-lg font-bold text-slate-900 mb-3 group-hover:text-blue-600 transition-colors line-clamp-2">
-                    {post.title}
-                  </h3>
-                  <p className="text-slate-600 text-xs leading-relaxed line-clamp-3 mb-6">
-                    {post.excerpt}
-                  </p>
-                </div>
-
-                <a
-                  href="#blogs"
-                  className="inline-flex items-center gap-2 text-blue-600 font-bold text-xs tracking-wider uppercase hover:text-blue-800 transition-colors text-decoration-none"
-                >
-                  <span>Read Full Article</span>
-                  <i className="bi bi-arrow-right"></i>
+              {/* Blog Content */}
+              <div className="p-5">
+                <p className="text-[16px] text-[#6c6c6c] font-bold uppercase text-center mb-2">{blog.tag}</p>
+                <h3 className="text-[18px] font-bold text-black uppercase mb-3 leading-snug">{blog.title}</h3>
+                <p className="text-[16px] text-[#090808] leading-normal mb-5">{blog.excerpt}</p>
+                <a href={blog.href} className="inline-flex items-center gap-2 text-[#165ea6] text-[16px] font-normal hover:underline text-decoration-none">
+                  Read More
+                  <Image src="/images/blog-arrow.svg" alt="→" width={18} height={14} />
                 </a>
               </div>
-            </article>
+            </div>
           ))}
         </div>
       </div>

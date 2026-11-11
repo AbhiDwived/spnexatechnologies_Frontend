@@ -5,6 +5,7 @@ import Services from "@/components/Services";
 import StatsCounter from "@/components/StatsCounter";
 import ProcessFlow from "@/components/ProcessFlow";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import AppSolutionCards from "@/components/AppSolutionCards";
 import IndustriesWeServe from "@/components/IndustriesWeServe";
 import Testimonials from "@/components/Testimonials";
 import LatestBlogs from "@/components/LatestBlogs";
@@ -31,7 +32,10 @@ export default function Home() {
       {/* Why Choose Us Component */}
       <WhyChooseUs />
 
-      {/* Industries We Serve & Vertical Stepper Component */}
+      {/* Industries We Serve — Bento Grid Cards (Section 1) */}
+      <AppSolutionCards />
+
+      {/* Industries We Serve — Detailed Vertical Rows (Section 2) */}
       <IndustriesWeServe />
 
       {/* Client Testimonials Component */}

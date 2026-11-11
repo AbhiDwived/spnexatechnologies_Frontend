@@ -2,6 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function TrickleFooter() {
   const companyLinks = [
@@ -10,193 +11,144 @@ export default function TrickleFooter() {
     { name: "Contact Us", href: "/contact" },
     { name: "Case Study", href: "/portfolio" },
     { name: "Blog", href: "/blogs" },
-    { name: "Tech Stack", href: "/#services" },
+    { name: "Free Quote", href: "/contact" },
   ];
 
   const devServices = [
-    { name: "App Development", href: "/services/app-development" },
-    { name: "Web Development", href: "/services/web-development" },
-    { name: "UI/UX Design", href: "/services/ui-ux-design" },
-    { name: "Web Design", href: "/services/web-design" },
-    { name: "Digital Marketing", href: "/services/digital-marketing" },
-    { name: "Database Analysis", href: "/services/database-analysis" },
+    { name: "App Development", href: "/app-development" },
+    { name: "AI Development", href: "#" },
+    { name: "Chatbot Development", href: "#" },
+    { name: "Software Development", href: "#" },
+    { name: "Digital Product Engineering", href: "#" },
+    { name: "Blockchain Testing Services", href: "#" },
   ];
 
-  const modernTechnologies = [
+  const advanceTech = [
     { name: "Blockchain", href: "#" },
-    { name: "AR/VR", href: "#" },
-    { name: "Artificial Intelligence & Machine Learning", href: "#" },
+    { name: "Web3", href: "#" },
+    { name: "Artificial Intelligence Integration", href: "#" },
     { name: "Internet of Things", href: "#" },
-    { name: "Big Data Analytics", href: "#" },
-    { name: "Cloud & DevOps Solutions", href: "#" },
+    { name: "Machine Learning", href: "#" },
+    { name: "DevOps Services Company", href: "#" },
   ];
+
+  const columnHeading = (title: string) => (
+    <div className="mb-[37px]">
+      <p className="text-white text-[16px] font-normal mb-[9px]">{title}</p>
+      <Image src="/images/footer-line.svg" alt="" width={60} height={1} />
+    </div>
+  );
+
+  const linkItem = (name: string, href: string, idx: number) => (
+    <li key={idx} className="mb-[9px]">
+      <Link href={href} className="text-white text-[16px] font-normal hover:text-blue-200 transition-colors text-decoration-none">
+        {name}
+      </Link>
+    </li>
+  );
 
   return (
-    <footer className="bg-[#093563] bg-gradient-to-b from-[#083363] via-[#072B54] to-[#052142] text-slate-200 pt-14 pb-8 border-t border-blue-900/60">
-      <div className="w-full px-4 sm:px-8 lg:px-12 xl:px-16">
-        {/* Main 4-Column Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8 pb-12 border-b border-blue-800/40">
-          
+    <footer>
+      {/* Main Footer Body */}
+      <div
+        className="px-[100px] py-[50px]"
+        style={{ background: "linear-gradient(231.3deg, rgb(29,51,74) 29.8%, rgb(22,94,166) 77.6%)" }}
+      >
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
           {/* Column 1: Company */}
-          <div className="lg:col-span-3 space-y-3.5">
-            <h4 className="text-white text-sm sm:text-base font-bold tracking-wider uppercase mb-3">
-              Company
-            </h4>
-            <ul className="space-y-2 text-xs sm:text-[13px] text-blue-100/80 list-unstyled">
-              {companyLinks.map((item, idx) => (
-                <li key={idx}>
-                  <Link
-                    href={item.href}
-                    className="hover:text-white transition-colors text-decoration-none text-inherit block py-0.5"
-                  >
-                    {item.name}
-                  </Link>
-                </li>
-              ))}
+          <div>
+            {columnHeading("Company")}
+            <ul className="list-unstyled p-0 m-0">
+              {companyLinks.map((item, idx) => linkItem(item.name, item.href, idx))}
             </ul>
           </div>
 
-          {/* Column 2: Development Service */}
-          <div className="lg:col-span-3 space-y-3.5">
-            <h4 className="text-white text-sm sm:text-base font-bold tracking-wider uppercase mb-3">
-              Development Service
-            </h4>
-            <ul className="space-y-2 text-xs sm:text-[13px] text-blue-100/80 list-unstyled">
-              {devServices.map((item, idx) => (
-                <li key={idx}>
-                  <Link
-                    href={item.href}
-                    className="hover:text-white transition-colors text-decoration-none text-inherit block py-0.5"
-                  >
-                    {item.name}
-                  </Link>
-                </li>
-              ))}
+          {/* Column 2: Development Services */}
+          <div>
+            {columnHeading("Development Services")}
+            <ul className="list-unstyled p-0 m-0">
+              {devServices.map((item, idx) => linkItem(item.name, item.href, idx))}
             </ul>
           </div>
 
-          {/* Column 3: Modern Technologies */}
-          <div className="lg:col-span-3 space-y-3.5">
-            <h4 className="text-white text-sm sm:text-base font-bold tracking-wider uppercase mb-3">
-              Modern Technologies
-            </h4>
-            <ul className="space-y-2 text-xs sm:text-[13px] text-blue-100/80 list-unstyled">
-              {modernTechnologies.map((item, idx) => (
-                <li key={idx}>
-                  <Link
-                    href={item.href}
-                    className="hover:text-white transition-colors text-decoration-none text-inherit block py-0.5"
-                  >
-                    {item.name}
-                  </Link>
-                </li>
-              ))}
+          {/* Column 3: Advance Technologies */}
+          <div>
+            {columnHeading("Advance Technologies")}
+            <ul className="list-unstyled p-0 m-0">
+              {advanceTech.map((item, idx) => linkItem(item.name, item.href, idx))}
             </ul>
           </div>
 
           {/* Column 4: Contact Us */}
-          <div className="lg:col-span-3 space-y-4">
-            <h4 className="text-white text-sm sm:text-base font-bold tracking-wider uppercase mb-3">
-              Contact Us
-            </h4>
-
-            {/* Email */}
-            <div className="flex items-center gap-2.5 text-xs sm:text-[13px] text-blue-100/90">
-              <span className="w-5 h-5 flex items-center justify-center text-blue-300">
-                <i className="bi bi-envelope"></i>
-              </span>
-              <a
-                href="mailto:connect@tricklesolutions.com"
-                className="hover:text-white transition-colors text-decoration-none text-inherit"
-              >
-                connect@tricklesolutions.com
-              </a>
-            </div>
-
-            {/* Phone */}
-            <div className="flex items-center gap-2.5 text-xs sm:text-[13px] text-blue-100/90">
-              <span className="text-sm">🇮🇳</span>
-              <a
-                href="tel:+919311234567"
-                className="hover:text-white transition-colors text-decoration-none text-inherit font-medium"
-              >
-                +91 931 123 4567
-              </a>
-            </div>
-
-            {/* Follow Us On */}
-            <div className="pt-2">
-              <div className="text-[11px] font-semibold text-blue-200 uppercase tracking-wider mb-2.5">
-                Follow Us on:
+          <div>
+            {columnHeading("Contact Us")}
+            <div className="space-y-5">
+              {/* Email */}
+              <div className="flex items-center gap-2 text-white text-[16px]">
+                <i className="bi bi-envelope text-sm" />
+                <a href="mailto:info@tricklesolutions.com" className="text-white hover:text-blue-200 text-decoration-none">
+                  info@tricklesolutions.com
+                </a>
               </div>
-              <div className="flex items-center gap-2.5">
-                <a
-                  href="#"
-                  className="w-8 h-8 rounded-full border border-white/30 hover:border-white hover:bg-white/10 flex items-center justify-center text-white transition-all text-xs"
-                >
-                  <i className="bi bi-twitter-x"></i>
+
+              {/* Phone */}
+              <div className="flex items-center gap-3">
+                <Image src="/images/flag-india.png" alt="India" width={28} height={20} className="object-cover" />
+                <a href="tel:+919252184451" className="text-white text-[16px] font-semibold hover:text-blue-200 text-decoration-none">
+                  +91 925 218-4451
                 </a>
-                <a
-                  href="#"
-                  className="w-8 h-8 rounded-full border border-white/30 hover:border-white hover:bg-white/10 flex items-center justify-center text-white transition-all text-xs"
-                >
-                  <i className="bi bi-facebook"></i>
-                </a>
-                <a
-                  href="#"
-                  className="w-8 h-8 rounded-full border border-white/30 hover:border-white hover:bg-white/10 flex items-center justify-center text-white transition-all text-xs"
-                >
-                  <i className="bi bi-linkedin"></i>
-                </a>
-                <a
-                  href="#"
-                  className="w-8 h-8 rounded-full border border-white/30 hover:border-white hover:bg-white/10 flex items-center justify-center text-white transition-all text-xs"
-                >
-                  <i className="bi bi-instagram"></i>
-                </a>
+              </div>
+
+              {/* Follow Us */}
+              <div>
+                <Image src="/images/footer-line.svg" alt="" width={60} height={1} className="mb-3" />
+                <p className="text-white text-[16px] mb-3">Follow Us on</p>
+                <Image src="/images/footer-line.svg" alt="" width={60} height={1} className="mb-4" />
+                <div className="flex items-center gap-4">
+                  <a href="#" aria-label="Facebook" className="hover:scale-110 transition-transform">
+                    <Image src="/images/footer-facebook.svg" alt="Facebook" width={28} height={28} />
+                  </a>
+                  <a href="#" aria-label="Instagram" className="hover:scale-110 transition-transform">
+                    <Image src="/images/footer-instagram.svg" alt="Instagram" width={28} height={28} />
+                  </a>
+                  <a href="#" aria-label="LinkedIn" className="hover:scale-110 transition-transform">
+                    <Image src="/images/footer-linkedin.svg" alt="LinkedIn" width={28} height={28} />
+                  </a>
+                  <a href="#" aria-label="YouTube" className="hover:scale-110 transition-transform">
+                    <Image src="/images/footer-youtube.svg" alt="YouTube" width={28} height={28} />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-
         </div>
 
-        {/* Bottom Bar with Logo Badge, Copyright, ISO badge, and Terms */}
-        <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-6">
-          {/* Logo Pill Container */}
+        {/* Logo at bottom — exact from Figma: white rounded box */}
+        <div className="mt-10">
           <Link
             href="/"
-            style={{ borderRadius: "9999px" }}
-            className="inline-flex items-center gap-2.5 px-4 py-2 bg-white text-[#1E3A8A] shadow-md text-decoration-none hover:shadow-lg transition-all"
+            className="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-[20px] text-decoration-none hover:shadow-lg transition-all"
           >
-            <div className="w-7 h-7 rounded-full border-2 border-blue-600 flex items-center justify-center font-black text-blue-700 text-xs">
-              TS
-            </div>
-            <span className="font-extrabold text-xs tracking-wider uppercase">
-              TRICKLE SOLUTIONS
-            </span>
+            <Image src="/images/trickle-logo.png" alt="Trickle Solutions" width={52} height={49} className="object-contain" />
+            <span className="text-[#165ea6] text-[16px] font-semibold uppercase">TRICKLE SOLUTIONS</span>
           </Link>
-
-          {/* Copyright & ISO Badge */}
-          <div className="flex flex-wrap items-center justify-center gap-4 text-xs text-blue-200/80">
-            <span>© {new Date().getFullYear()} Trickle Solutions. All rights reserved.</span>
-            <span className="hidden sm:inline">•</span>
-            <span className="inline-flex items-center gap-1 bg-blue-900/40 px-2.5 py-1 rounded border border-blue-700/50 text-[11px]">
-              <i className="bi bi-shield-check text-cyan-300"></i>
-              <span>ISO 9001:2015 Certified</span>
-            </span>
-          </div>
-
-          {/* Legal Links */}
-          <div className="flex items-center gap-4 text-xs text-blue-200/80">
-            <a href="#" className="hover:text-white transition-colors text-decoration-none text-inherit">
-              Terms & Conditions
-            </a>
-            <span>|</span>
-            <a href="#" className="hover:text-white transition-colors text-decoration-none text-inherit">
-              Privacy Policy
-            </a>
-          </div>
         </div>
+      </div>
+
+      {/* Bottom Bar */}
+      <div
+        className="px-[100px] py-0 border-t border-white h-[100px] flex items-center justify-between"
+        style={{ background: "linear-gradient(195deg, rgb(29,51,74) 29.8%, rgb(22,94,166) 77.6%)" }}
+      >
+        <p className="text-white text-[15px] font-normal m-0">© 2026 | All rights reserved</p>
+        <div className="flex items-center gap-2">
+          <i className="bi bi-exclamation-triangle text-white text-sm" />
+          <span className="text-white text-[15px] uppercase">SCAM ALERT :-</span>
+        </div>
+        <a href="#" className="text-white text-[15px] hover:text-blue-200 text-decoration-none">
+          Term &amp; Condition.Privacy Policy
+        </a>
       </div>
     </footer>
   );

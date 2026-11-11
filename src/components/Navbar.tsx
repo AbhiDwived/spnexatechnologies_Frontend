@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 interface NavbarProps {
   defaultActive?: string;
@@ -341,30 +342,22 @@ export default function Navbar({ defaultActive = "Home" }: NavbarProps) {
       >
         <div className="w-full px-4 sm:px-8 lg:px-12 xl:px-16 flex items-center justify-between gap-4">
           
-          {/* Luxury Brand Logo Lockup */}
+          {/* Logo — matching Figma exactly */}
           <Link
-            className="flex items-center gap-3 text-decoration-none group shrink-0"
+            className="flex items-center gap-2 text-decoration-none shrink-0"
             href="/"
             onClick={() => setActiveNav("Home")}
           >
-            {/* Prestigious Monogram Crest */}
-            <div className="relative w-10 h-10 sm:w-11 sm:h-11 rounded-2xl bg-gradient-to-br from-[#0B2545] via-[#143B68] to-[#1D70B8] text-white flex items-center justify-center shadow-[0_4px_14px_rgba(11,37,69,0.25)] ring-1 ring-blue-500/20 group-hover:scale-105 group-hover:shadow-[0_6px_22px_rgba(29,112,184,0.4)] transition-all">
-              <span className="bg-gradient-to-br from-white via-blue-50 to-blue-200 bg-clip-text text-transparent font-black tracking-tighter text-base sm:text-lg">
-                TS
-              </span>
-              {/* Luxury Accent Micro-Dot */}
-              <span className="absolute -top-0.5 -right-0.5 w-2.5 h-2.5 rounded-full bg-cyan-400 border-2 border-white shadow-xs"></span>
-            </div>
-
-            {/* Brand Typography */}
-            <div className="flex flex-col">
-              <span className="text-[17px] sm:text-[19px] font-black tracking-[0.06em] text-[#0B2545] uppercase font-sans leading-none group-hover:text-[#1D70B8] transition-colors">
-                TRICKLE SOLUTIONS
-              </span>
-              <span className="text-[8.5px] sm:text-[9px] font-bold tracking-[0.24em] text-[#1D70B8] uppercase mt-1 leading-none">
-                DIGITAL INNOVATION LAB
-              </span>
-            </div>
+            <Image
+              src="/images/trickle-logo.png"
+              alt="Trickle Solutions Logo"
+              width={52}
+              height={49}
+              className="object-contain"
+            />
+            <span className="text-[16px] font-semibold text-[#18478d] uppercase leading-none">
+              TRICKLE SOLUTIONS
+            </span>
           </Link>
 
           {/* Desktop Navigation Links */}
