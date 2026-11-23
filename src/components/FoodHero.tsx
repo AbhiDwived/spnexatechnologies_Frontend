@@ -49,7 +49,7 @@ export default function FoodHero() {
 
             {/* Paragraph Text matching reference */}
             <p className="text-blue-100 text-xs sm:text-sm lg:text-[14.5px] leading-relaxed max-w-xl font-normal">
-              Do you want to know the easiest way to grow your restaurant business? You need a top-notch food delivery app developed by experts from a well-reputed company! Trickle Solutions is an experienced Food Delivery App Development Company focused on creating mobile applications that allow your business to stand out. We help you create tailored food delivery apps that deliver instant food orders, real-time tracking, secure payments, and seamless restaurant management to keep you at the top of this competitive Food Delivery industry.
+              Do you want to know the easiest way to grow your restaurant business? You need a top-notch food delivery app developed by experts from a well-reputed company! SP NEXA Technologies is an experienced Food Delivery App Development Company focused on creating mobile applications that allow your business to stand out. We help you create tailored food delivery apps that deliver instant food orders, real-time tracking, secure payments, and seamless restaurant management to keep you at the top of this competitive Food Delivery industry.
             </p>
 
             {/* Feature Bullets Checklist */}

@@ -182,10 +182,10 @@ export default function UiUxContact() {
                       EMAIL
                     </h4>
                     <a
-                      href="mailto:contact@tricklesolutions.com"
+                      href="mailto:contact@spnexa.com"
                       className="text-xs sm:text-[13px] text-slate-800 hover:text-blue-600 transition-colors text-decoration-none block"
                     >
-                      www.contact@tricklesolutions.com
+                      www.contact@spnexa.com
                     </a>
                   </div>
                 </div>

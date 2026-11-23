@@ -8,9 +8,9 @@ import PortfolioCtaBanner from "@/components/PortfolioCtaBanner";
 import TrickleFooter from "@/components/TrickleFooter";
 
 export const metadata: Metadata = {
-  title: "Blogs & Insights | Trickle Solutions",
+  title: "Blogs & Insights | SP NEXA Technologies",
   description:
-    "Welcome to the Trickle Solutions IT Comprehensive Information Hub, your go-to destination for the latest in technology and innovation.",
+    "Welcome to the SP NEXA Technologies IT Comprehensive Information Hub, your go-to destination for the latest in technology and innovation.",
 };
 
 export default function BlogsPage() {
@@ -31,7 +31,7 @@ export default function BlogsPage() {
       {/* Ready to take the first step: Pointing Man Banner */}
       <PortfolioCtaBanner />
 
-      {/* Trickle Solutions Footer */}
+      {/* SP NEXA Technologies Footer */}
       <TrickleFooter />
     </main>
   );

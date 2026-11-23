@@ -9,7 +9,7 @@ import PortfolioLatestBlogs from "@/components/PortfolioLatestBlogs";
 import TrickleFooter from "@/components/TrickleFooter";
 
 export const metadata: Metadata = {
-  title: "Portfolio | Trickle Solutions",
+  title: "Portfolio | SP NEXA Technologies",
   description:
     "From dream to reality, we take pride in our involvement with these apps. Explore our featured mobile and web applications passionately crafted with love.",
 };
@@ -35,7 +35,7 @@ export default function PortfolioPage() {
       {/* Latest Blogs Section */}
       <PortfolioLatestBlogs />
 
-      {/* Trickle Solutions Footer */}
+      {/* SP NEXA Technologies Footer */}
       <TrickleFooter />
     </main>
   );

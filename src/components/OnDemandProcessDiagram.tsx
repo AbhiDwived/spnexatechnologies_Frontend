@@ -22,7 +22,7 @@ export default function OnDemandProcessDiagram() {
             Process of Crafting On Demand Application
           </h2>
           <p className="text-slate-600 text-xs sm:text-sm leading-relaxed mb-0">
-            At Trickle Solutions, we follow an agile, transparent, and milestone-driven methodology when engineering custom on-demand applications. Every project progresses smoothly from initial requirement workshops and clean wireframes into native mobile development, rigorous quality assurance, launch deployment, and continuous lifecycle maintenance to guarantee resilient performance.
+            At SP NEXA Technologies, we follow an agile, transparent, and milestone-driven methodology when engineering custom on-demand applications. Every project progresses smoothly from initial requirement workshops and clean wireframes into native mobile development, rigorous quality assurance, launch deployment, and continuous lifecycle maintenance to guarantee resilient performance.
           </p>
         </div>
 

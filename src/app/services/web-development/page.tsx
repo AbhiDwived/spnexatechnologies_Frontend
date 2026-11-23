@@ -9,7 +9,7 @@ import UiUxContact from "@/components/UiUxContact";
 import TrickleFooter from "@/components/TrickleFooter";
 
 export const metadata: Metadata = {
-  title: "Web Development Services | Trickle Solutions",
+  title: "Web Development Services | SP NEXA Technologies",
   description:
     "Ensuring your website is expertly developed not only creates a strong first impression but also keeps visitors engaged. Our web development services focus on building fast, responsive, and user-friendly websites.",
 };
@@ -35,7 +35,7 @@ export default function WebDevelopmentPage() {
       {/* Contact Us Glass Architectural Card & Form */}
       <UiUxContact />
 
-      {/* Trickle Solutions Footer */}
+      {/* SP NEXA Technologies Footer */}
       <TrickleFooter />
     </main>
   );

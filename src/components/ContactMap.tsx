@@ -10,7 +10,7 @@ export default function ContactMap() {
         {/* Authentic Google Map View */}
         <Image
           src="/images/contact-map.png"
-          alt="Trickle Solutions Google Map Location in Vaishali Ghaziabad"
+          alt="SP NEXA Technologies Google Map Location in Vaishali Ghaziabad"
           fill
           className="object-cover object-center"
           priority

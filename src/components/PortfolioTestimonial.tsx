@@ -23,7 +23,7 @@ export default function PortfolioTestimonial() {
             {/* Quote Body */}
             <div className="space-y-4 flex-1">
               <p className="text-slate-700 text-sm sm:text-base lg:text-[16px] leading-relaxed font-normal italic">
-                Trickle Solutions delivered our MVP months ahead of schedule with top-tier polish. Their communication was seamless, and the finished product exceeded all of our team&apos;s expectations. We have experienced a notable spike in user engagement and conversions since launch.
+                SP NEXA Technologies delivered our MVP months ahead of schedule with top-tier polish. Their communication was seamless, and the finished product exceeded all of our team&apos;s expectations. We have experienced a notable spike in user engagement and conversions since launch.
               </p>
 
               {/* Author Info */}

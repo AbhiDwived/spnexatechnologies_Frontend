@@ -10,7 +10,7 @@ export default function AboutHero() {
       <div className="relative w-full h-[240px] sm:h-[340px] lg:h-[420px] overflow-hidden">
         <Image
           src="/images/about-office-banner.jpg"
-          alt="Trickle Solutions Software Engineering Team Collaborating"
+          alt="SP NEXA Technologies Software Engineering Team Collaborating"
           fill
           className="object-cover object-center brightness-95"
           priority

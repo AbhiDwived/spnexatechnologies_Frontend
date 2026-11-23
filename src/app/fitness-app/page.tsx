@@ -14,7 +14,7 @@ import FitnessLatestBlogs from "@/components/FitnessLatestBlogs";
 import TrickleFooter from "@/components/TrickleFooter";
 
 export const metadata: Metadata = {
-  title: "Fitness App Development Company | Trickle Solutions",
+  title: "Fitness App Development Company | SP NEXA Technologies",
   description:
     "Leading fitness app development company crafting custom workout, nutrition, meditation, activity tracking, and wearable-integrated wellness mobile applications.",
 };

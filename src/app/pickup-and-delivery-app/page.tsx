@@ -12,7 +12,7 @@ import PortfolioCtaBanner from "@/components/PortfolioCtaBanner";
 import TrickleFooter from "@/components/TrickleFooter";
 
 export const metadata: Metadata = {
-  title: "Pickup and Delivery App Development Company | Trickle Solutions",
+  title: "Pickup and Delivery App Development Company | SP NEXA Technologies",
   description:
     "Trusted pickup and delivery app development company crafting custom courier, parcel tracking, route optimization, and on-demand logistics mobile applications.",
 };

@@ -8,9 +8,9 @@ import AwardsSection from "@/components/AwardsSection";
 import TrickleFooter from "@/components/TrickleFooter";
 
 export const metadata: Metadata = {
-  title: "About Us | Trickle Solutions",
+  title: "About Us | SP NEXA Technologies",
   description:
-    "Trickle Solutions is the first natively iterative agency built for your true digital exploration. Learn more about our mission, vision, team, achievements, and awards.",
+    "SP NEXA Technologies is the first natively iterative agency built for your true digital exploration. Learn more about our mission, vision, team, achievements, and awards.",
 };
 
 export default function AboutPage() {
@@ -31,7 +31,7 @@ export default function AboutPage() {
       {/* Awards Section: GoodFirms, Top 1000 Companies, Clutch */}
       <AwardsSection />
 
-      {/* TS Trickle Solutions Footer */}
+      {/* TS SP NEXA Technologies Footer */}
       <TrickleFooter />
     </main>
   );

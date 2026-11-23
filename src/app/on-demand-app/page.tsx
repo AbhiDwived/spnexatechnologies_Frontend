@@ -14,7 +14,7 @@ import OnDemandLatestBlogs from "@/components/OnDemandLatestBlogs";
 import TrickleFooter from "@/components/TrickleFooter";
 
 export const metadata: Metadata = {
-  title: "On Demand App Development Company | Trickle Solutions",
+  title: "On Demand App Development Company | SP NEXA Technologies",
   description:
     "Leading on-demand app development company crafting scalable multi-service mobile applications across beauty, food delivery, telemedicine, e-commerce, and logistics.",
 };

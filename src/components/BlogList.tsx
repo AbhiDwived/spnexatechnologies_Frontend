@@ -15,7 +15,7 @@ interface BlogPost {
 const initialPosts: BlogPost[] = [
   {
     id: 1,
-    title: "How Trickle Solutions Perfects App Launches",
+    title: "How SP NEXA Technologies Perfects App Launches",
     excerpt:
       "A mobile app launch involves several critical stages, such as architecture design, performance optimization, platform compliance, and post-release stability.",
     date: "January 30, 2026",
@@ -83,10 +83,10 @@ export default function BlogList() {
         <div className="max-w-3xl mx-auto space-y-3">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black text-slate-900 tracking-tight leading-snug">
             Explore the World of Development <br />
-            with Trickle Solutions Blog
+            with SP NEXA Technologies Blog
           </h2>
           <p className="text-slate-600 text-xs sm:text-sm lg:text-[13.5px] leading-relaxed font-normal">
-            Welcome to Trickle Solutions Blog, your one-stop destination for insightful blogs, tutorials, and resources on various aspects of software development, programming languages, web development, and much more. Start exploring our latest articles and resources today and take your development skills to new heights!
+            Welcome to SP NEXA Technologies Blog, your one-stop destination for insightful blogs, tutorials, and resources on various aspects of software development, programming languages, web development, and much more. Start exploring our latest articles and resources today and take your development skills to new heights!
           </p>
         </div>
 

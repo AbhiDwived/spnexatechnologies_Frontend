@@ -11,7 +11,7 @@ import UiUxContact from "@/components/UiUxContact";
 import TrickleFooter from "@/components/TrickleFooter";
 
 export const metadata: Metadata = {
-  title: "Mobile App Development Company | Trickle Solutions",
+  title: "Mobile App Development Company | SP NEXA Technologies",
   description:
     "Ensuring your application is expertly developed creates a seamless user experience and scales your business. Our mobile app development services build secure, robust, and intuitive native and cross-platform mobile apps.",
 };
@@ -43,7 +43,7 @@ export default function AppDevelopmentPage() {
       {/* 7. Contact Us Glass Architectural Card & Form */}
       <UiUxContact />
 
-      {/* 8. Trickle Solutions Footer */}
+      {/* 8. SP NEXA Technologies Footer */}
       <TrickleFooter />
     </main>
   );

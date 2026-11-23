@@ -12,7 +12,7 @@ import PortfolioCtaBanner from "@/components/PortfolioCtaBanner";
 import TrickleFooter from "@/components/TrickleFooter";
 
 export const metadata: Metadata = {
-  title: "Grocery Delivery App Development Company | Trickle Solutions",
+  title: "Grocery Delivery App Development Company | SP NEXA Technologies",
   description:
     "Prominent grocery app development company offering custom grocery delivery mobile applications that provide hassle-free grocery shopping experiences.",
 };
@@ -35,7 +35,7 @@ export default function GroceryDeliveryAppPage() {
       {/* 4. Awards Section */}
       <DatabaseAwards />
 
-      {/* 5. Why is Trickle Solutions Your Trusted Partner in Grocery Delivery App Development? */}
+      {/* 5. Why is SP NEXA Technologies Your Trusted Partner in Grocery Delivery App Development? */}
       <GroceryPartnerStats />
 
       {/* 6. Tap Into Success with Your Own Grocery App */}

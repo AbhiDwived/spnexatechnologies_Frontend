@@ -12,7 +12,7 @@ import PortfolioCtaBanner from "@/components/PortfolioCtaBanner";
 import TrickleFooter from "@/components/TrickleFooter";
 
 export const metadata: Metadata = {
-  title: "Food Delivery App Development Company | Trickle Solutions",
+  title: "Food Delivery App Development Company | SP NEXA Technologies",
   description:
     "Experienced food delivery app development company crafting tailored restaurant and on-demand food ordering mobile apps with live tracking and contactless operations.",
 };
@@ -35,7 +35,7 @@ export default function FoodDeliveryAppPage() {
       {/* 4. Awards Section */}
       <DatabaseAwards />
 
-      {/* 5. Why is Trickle Solutions Your Trusted Partner in Food Delivery App Development? */}
+      {/* 5. Why is SP NEXA Technologies Your Trusted Partner in Food Delivery App Development? */}
       <FoodPartnerSection />
 
       {/* 6. Tap Into Success with Your Own Food Delivery App */}

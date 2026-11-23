@@ -7,9 +7,9 @@ import ContactTransformBanner from "@/components/ContactTransformBanner";
 import TrickleFooter from "@/components/TrickleFooter";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Trickle Solutions",
+  title: "Contact Us | SP NEXA Technologies",
   description:
-    "Unleash your business potential now! Contact Trickle Solutions for end-to-end mobile and web development, AI integration, and digital transformation.",
+    "Unleash your business potential now! Contact SP NEXA Technologies for end-to-end mobile and web development, AI integration, and digital transformation.",
 };
 
 export default function ContactPage() {
@@ -27,7 +27,7 @@ export default function ContactPage() {
       {/* Digital Transformation Banner with Expert */}
       <ContactTransformBanner />
 
-      {/* Trickle Solutions Footer */}
+      {/* SP NEXA Technologies Footer */}
       <TrickleFooter />
     </main>
   );

@@ -349,15 +349,12 @@ export default function Navbar({ defaultActive = "Home" }: NavbarProps) {
             onClick={() => setActiveNav("Home")}
           >
             <Image
-              src="/images/trickle-logo.png"
-              alt="Trickle Solutions Logo"
-              width={52}
-              height={49}
+              src="/images/spnexa-logo.png"
+              alt="SP NEXA Technologies Logo"
+              width={160}
+              height={53}
               className="object-contain"
             />
-            <span className="text-[16px] font-semibold text-[#18478d] uppercase leading-none">
-              TRICKLE SOLUTIONS
-            </span>
           </Link>
 
           {/* Desktop Navigation Links */}

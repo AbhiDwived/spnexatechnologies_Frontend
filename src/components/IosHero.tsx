@@ -59,7 +59,7 @@ export default function IosHero() {
 
             {/* Paragraph Text */}
             <p className="text-blue-100 text-xs sm:text-sm lg:text-[15px] leading-relaxed max-w-xl font-normal">
-              iOS app development services include full lifecycle design, custom creation, QA, and integration of applications for iPhones and iPads. Trickle Solutions has been providing iOS app development services for the past 10+ years and caters to clients of all sizes across multiple industries.
+              iOS app development services include full lifecycle design, custom creation, QA, and integration of applications for iPhones and iPads. SP NEXA Technologies has been providing iOS app development services for the past 10+ years and caters to clients of all sizes across multiple industries.
             </p>
 
             {/* Bullet Points List */}

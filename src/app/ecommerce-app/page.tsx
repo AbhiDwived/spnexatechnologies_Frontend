@@ -11,7 +11,7 @@ import PortfolioCtaBanner from "@/components/PortfolioCtaBanner";
 import TrickleFooter from "@/components/TrickleFooter";
 
 export const metadata: Metadata = {
-  title: "E-commerce App Development Company | Trickle Solutions",
+  title: "E-commerce App Development Company | SP NEXA Technologies",
   description:
     "Experienced Ecommerce mobile app development company providing bespoke and end-to-end solutions to build a strong online presence and convert browsers into buyers.",
 };

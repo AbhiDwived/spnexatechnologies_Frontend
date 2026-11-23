@@ -10,7 +10,7 @@ import UiUxContact from "@/components/UiUxContact";
 import TrickleFooter from "@/components/TrickleFooter";
 
 export const metadata: Metadata = {
-  title: "Database Analysis Services | Trickle Solutions",
+  title: "Database Analysis Services | SP NEXA Technologies",
   description:
     "Effective database analysis is key to making smarter, data-driven business decisions. We optimize your database structure to enhance reliability, speed, security, and scalability.",
 };
@@ -39,7 +39,7 @@ export default function DatabaseAnalysisPage() {
       {/* Contact Us Glass Architectural Card & Form */}
       <UiUxContact />
 
-      {/* Trickle Solutions Footer */}
+      {/* SP NEXA Technologies Footer */}
       <TrickleFooter />
     </main>
   );

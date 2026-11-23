@@ -10,7 +10,7 @@ export default function GroceryPartnerStats() {
         {/* Section Header */}
         <div className="max-w-3xl mx-auto mb-14 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#0B2545] tracking-tight mb-3">
-            Why is Trickle Solutions Your Trusted Partner <br className="hidden sm:inline" />
+            Why is SP NEXA Technologies Your Trusted Partner <br className="hidden sm:inline" />
             in Grocery Delivery App Development?
           </h2>
           <p className="text-slate-600 text-xs sm:text-sm font-medium leading-relaxed">

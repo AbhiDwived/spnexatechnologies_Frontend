@@ -11,9 +11,9 @@ import UiUxContact from "@/components/UiUxContact";
 import TrickleFooter from "@/components/TrickleFooter";
 
 export const metadata: Metadata = {
-  title: "Custom iOS Application Development | Trickle Solutions",
+  title: "Custom iOS Application Development | SP NEXA Technologies",
   description:
-    "iOS app development services include full lifecycle design, custom creation, QA, and integration of applications for iPhones and iPads. Trickle Solutions has been providing iOS app development services for the past 10+ years.",
+    "iOS app development services include full lifecycle design, custom creation, QA, and integration of applications for iPhones and iPads. SP NEXA Technologies has been providing iOS app development services for the past 10+ years.",
 };
 
 export default function IosAppDevelopmentPage() {
@@ -43,7 +43,7 @@ export default function IosAppDevelopmentPage() {
       {/* 7. Contact Us Glass Architectural Card & Form */}
       <UiUxContact />
 
-      {/* 8. Trickle Solutions Footer */}
+      {/* 8. SP NEXA Technologies Footer */}
       <TrickleFooter />
     </main>
   );

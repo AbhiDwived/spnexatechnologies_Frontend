@@ -11,7 +11,7 @@ import ContactTransformBanner from "@/components/ContactTransformBanner";
 import TrickleFooter from "@/components/TrickleFooter";
 
 export const metadata: Metadata = {
-  title: "Salon App Development Company | Trickle Solutions",
+  title: "Salon App Development Company | SP NEXA Technologies",
   description:
     "Custom salon app development company delivering user-friendly salon appointment booking apps, stylist scheduling panels, and customer loyalty solutions.",
 };

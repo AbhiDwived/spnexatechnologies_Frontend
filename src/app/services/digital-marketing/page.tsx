@@ -9,7 +9,7 @@ import UiUxContact from "@/components/UiUxContact";
 import TrickleFooter from "@/components/TrickleFooter";
 
 export const metadata: Metadata = {
-  title: "Digital Marketing Services | Trickle Solutions",
+  title: "Digital Marketing Services | SP NEXA Technologies",
   description:
     "We focus on transforming marketing investments into business drivers. Our digital marketing services include SEO optimization, social media marketing, email marketing, and PPC advertising.",
 };
@@ -35,7 +35,7 @@ export default function DigitalMarketingPage() {
       {/* Contact Us Glass Architectural Card & Form */}
       <UiUxContact />
 
-      {/* Trickle Solutions Footer */}
+      {/* SP NEXA Technologies Footer */}
       <TrickleFooter />
     </main>
   );

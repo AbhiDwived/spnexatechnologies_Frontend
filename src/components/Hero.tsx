@@ -57,10 +57,10 @@ export default function Hero() {
 
             {/* Paragraph */}
             <p className="text-[rgba(0,0,0,0.75)] text-sm lg:text-[18px] leading-[25px] max-w-[521px]">
-              Trickle Solutions is a leading mobile app and website development
-              company dedicated to delivering exceptional client experiences.
-              Our expert team brings innovation and skill to every
-              project,staying ahead of the competition to create solutions
+              SP NEXA Technologies is a leading IT company specialising in
+              Systems, Networks & Solutions — dedicated to delivering exceptional
+              client experiences. Our expert team brings innovation and skill to
+              every project, staying ahead of the competition to create solutions
               that drive success for our clients and partners.
             </p>
 
@@ -68,10 +68,10 @@ export default function Hero() {
             <div className="flex flex-wrap items-center gap-3 pt-1">
               <div className="inline-flex items-center gap-2 bg-[#165ea6] text-white px-4 py-1.5 rounded-[7px] text-sm font-medium shadow-sm">
                 <Image src="/images/flag-india.png" alt="India flag" width={22} height={15} className="object-cover" />
-                <span>+91 925 218-4451</span>
+                <span>+91 843 320-8146</span>
               </div>
               <div className="inline-flex items-center gap-2 bg-[#165ea6] text-white px-4 py-1.5 rounded-[7px] text-sm font-medium shadow-sm">
-                <span>info@tricklesolutions.com</span>
+                <span>info@spnexa.com</span>
               </div>
             </div>
 

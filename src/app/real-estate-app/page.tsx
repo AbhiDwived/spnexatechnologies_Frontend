@@ -11,7 +11,7 @@ import PortfolioCtaBanner from "@/components/PortfolioCtaBanner";
 import TrickleFooter from "@/components/TrickleFooter";
 
 export const metadata: Metadata = {
-  title: "Real Estate App Development Company | Trickle Solutions",
+  title: "Real Estate App Development Company | SP NEXA Technologies",
   description:
     "Top-notch real estate app development services. Our team develops custom real estate apps that streamline operations, improve client engagement, and drive business growth.",
 };

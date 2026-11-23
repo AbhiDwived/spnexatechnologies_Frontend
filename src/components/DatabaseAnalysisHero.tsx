@@ -58,7 +58,7 @@ export default function DatabaseAnalysisHero() {
 
             {/* Paragraph Text */}
             <p className="text-blue-100 text-xs sm:text-sm lg:text-[15px] leading-relaxed max-w-xl font-normal">
-              Effective database analysis is key to making smarter, data-driven business decisions. At Trickle Solutions, we examine your data to ensure accuracy, consistency, and performance across all systems. Our experienced professionals identify inefficiencies, uncover insights, and optimize your database structure to enhance reliability, speed, and scalability.
+              Effective database analysis is key to making smarter, data-driven business decisions. At SP NEXA Technologies, we examine your data to ensure accuracy, consistency, and performance across all systems. Our experienced professionals identify inefficiencies, uncover insights, and optimize your database structure to enhance reliability, speed, and scalability.
             </p>
 
             {/* Bullet Points List */}

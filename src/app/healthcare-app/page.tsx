@@ -14,7 +14,7 @@ import HealthcareLatestBlogs from "@/components/HealthcareLatestBlogs";
 import TrickleFooter from "@/components/TrickleFooter";
 
 export const metadata: Metadata = {
-  title: "Healthcare App Development Company | Trickle Solutions",
+  title: "Healthcare App Development Company | SP NEXA Technologies",
   description:
     "HIPAA-compliant healthcare app development company creating custom telemedicine apps, patient portals, EHR integrations, and clinical management software.",
 };

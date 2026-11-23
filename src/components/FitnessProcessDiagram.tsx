@@ -22,7 +22,7 @@ export default function FitnessProcessDiagram() {
             Process of Creating Fitness Application
           </h2>
           <p className="text-slate-600 text-xs sm:text-sm leading-relaxed mb-0">
-            At Trickle Solutions, we follow an agile, transparent, and milestone-driven methodology when engineering custom fitness applications. Every project progresses seamlessly from discovery workshops and engaging workout wireframes into cross-platform development, wearable device telemetry integration, strict QA testing, launch deployment, and continuous support.
+            At SP NEXA Technologies, we follow an agile, transparent, and milestone-driven methodology when engineering custom fitness applications. Every project progresses seamlessly from discovery workshops and engaging workout wireframes into cross-platform development, wearable device telemetry integration, strict QA testing, launch deployment, and continuous support.
           </p>
         </div>
 

@@ -49,7 +49,7 @@ export default function EcommerceHero() {
 
             {/* Paragraph Text matching reference */}
             <p className="text-blue-100 text-xs sm:text-sm lg:text-[14.5px] leading-relaxed max-w-xl font-normal">
-              Do you also want to improve your business&apos;s online authority? Trickle Solutions is an experienced Ecommerce mobile app development company providing bespoke and end-to-end solutions to build a strong online presence. Our team of experienced developers develop mobile apps that grab your customers&apos; attention and work exceptionally appealing. We utilize the latest technologies to offer users an advanced shopping experience and browse-to-conversion. We are here to transform your app into a marketplace.
+              Do you also want to improve your business&apos;s online authority? SP NEXA Technologies is an experienced Ecommerce mobile app development company providing bespoke and end-to-end solutions to build a strong online presence. Our team of experienced developers develop mobile apps that grab your customers&apos; attention and work exceptionally appealing. We utilize the latest technologies to offer users an advanced shopping experience and browse-to-conversion. We are here to transform your app into a marketplace.
             </p>
 
             {/* Feature Bullets Checklist */}

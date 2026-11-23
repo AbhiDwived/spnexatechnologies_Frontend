@@ -24,7 +24,7 @@ export default function AboutWhoWeAre() {
             <div className="relative w-full max-w-[420px] rounded-2xl overflow-hidden shadow-2xl border-2 border-white/20 bg-slate-900 group">
               <Image
                 src="/images/about-developer-portrait.jpg"
-                alt="Trickle Solutions Lead Software Engineer"
+                alt="SP NEXA Technologies Lead Software Engineer"
                 width={500}
                 height={500}
                 className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500"
@@ -42,7 +42,7 @@ export default function AboutWhoWeAre() {
             </div>
 
             <p className="text-blue-100 text-xs sm:text-sm lg:text-[14.5px] leading-relaxed font-normal">
-              Trickle Solutions is the first natively iterative agency built for your true digital exploration. It&apos;s your partner space to earn and shape everything you envision — beautifully designed and digitally driven.
+              SP NEXA Technologies is the first natively iterative agency built for your true digital exploration. It&apos;s your partner space to earn and shape everything you envision — beautifully designed and digitally driven.
             </p>
 
             <p className="text-blue-100/90 text-xs sm:text-sm lg:text-[14px] leading-relaxed font-normal">

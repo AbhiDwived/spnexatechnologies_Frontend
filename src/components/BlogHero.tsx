@@ -21,7 +21,7 @@ export default function BlogHero() {
         <div className="absolute inset-0 z-0">
           <Image
             src="/images/blog-hero-banner.jpg"
-            alt="Trickle Solutions IT Comprehensive Information Hub"
+            alt="SP NEXA Technologies IT Comprehensive Information Hub"
             fill
             className="object-cover object-right brightness-90"
             priority
@@ -58,13 +58,13 @@ export default function BlogHero() {
 
             {/* Subheading */}
             <h2 className="text-base sm:text-lg lg:text-xl font-bold text-white tracking-tight leading-snug">
-              Trickle Solutions IT Comprehensive <br className="hidden sm:inline" />
+              SP NEXA Technologies IT Comprehensive <br className="hidden sm:inline" />
               Information Hub
             </h2>
 
             {/* Paragraph Text */}
             <p className="text-slate-300 text-xs sm:text-sm lg:text-[14px] leading-relaxed font-normal">
-              Welcome to the Trickle Solutions IT Comprehensive Information Hub, your go-to destination for the latest in technology and innovation. Dive into a wealth of resources, expert insights, and up-to-date information to stay ahead in the ever-evolving IT landscape.
+              Welcome to the SP NEXA Technologies IT Comprehensive Information Hub, your go-to destination for the latest in technology and innovation. Dive into a wealth of resources, expert insights, and up-to-date information to stay ahead in the ever-evolving IT landscape.
             </p>
 
             {/* CTA Button */}

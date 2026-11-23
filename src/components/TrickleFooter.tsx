@@ -87,16 +87,16 @@ export default function TrickleFooter() {
               {/* Email */}
               <div className="flex items-center gap-2 text-white text-[16px]">
                 <i className="bi bi-envelope text-sm" />
-                <a href="mailto:info@tricklesolutions.com" className="text-white hover:text-blue-200 text-decoration-none">
-                  info@tricklesolutions.com
+                <a href="mailto:info@spnexa.com" className="text-white hover:text-blue-200 text-decoration-none">
+                  info@spnexa.com
                 </a>
               </div>
 
               {/* Phone */}
               <div className="flex items-center gap-3">
                 <Image src="/images/flag-india.png" alt="India" width={28} height={20} className="object-cover" />
-                <a href="tel:+919252184451" className="text-white text-[16px] font-semibold hover:text-blue-200 text-decoration-none">
-                  +91 925 218-4451
+                <a href="tel:+918433208146" className="text-white text-[16px] font-semibold hover:text-blue-200 text-decoration-none">
+                  +91 843 320-8146
                 </a>
               </div>
 
@@ -130,8 +130,7 @@ export default function TrickleFooter() {
             href="/"
             className="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-[20px] text-decoration-none hover:shadow-lg transition-all"
           >
-            <Image src="/images/trickle-logo.png" alt="Trickle Solutions" width={52} height={49} className="object-contain" />
-            <span className="text-[#165ea6] text-[16px] font-semibold uppercase">TRICKLE SOLUTIONS</span>
+            <Image src="/images/spnexa-logo.png" alt="SP NEXA Technologies" width={160} height={53} className="object-contain" />
           </Link>
         </div>
       </div>
