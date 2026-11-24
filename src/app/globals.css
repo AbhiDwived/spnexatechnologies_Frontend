@@ -1198,8 +1198,95 @@ p {
 
 /* =========================================================
    RESPONSIVE — full-width fluid layout across all devices
-   Breakpoints: 1280 · 1024 · 860 · 640 · 480
+   Breakpoints: 1920+ · 1600 · 1280 · 1100 · 860 · 640 · 480
    ========================================================= */
+
+/* ---- Ultra-wide / 4K (≥ 1920px) ---- */
+@media (min-width: 1920px) {
+  :root {
+    --container-w: 100%;
+    --gutter: clamp(80px, 8vw, 160px);
+  }
+  .section-title {
+    font-size: clamp(48px, 3vw, 64px);
+  }
+  .section-sub {
+    font-size: clamp(18px, 1.2vw, 22px);
+    max-width: 900px;
+  }
+  .hero__eyebrow {
+    font-size: clamp(28px, 2vw, 40px);
+  }
+  .hero__title {
+    font-size: clamp(44px, 3.5vw, 64px);
+  }
+  .hero__desc {
+    font-size: clamp(17px, 1vw, 20px);
+    max-width: 680px;
+  }
+  .blogs__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .svc-benefits__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .sol-how__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .roadmap {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .stats__ring-outer {
+    width: 520px;
+    height: 520px;
+  }
+  .stats__ring-inner {
+    width: 380px;
+    height: 380px;
+  }
+  .stats__years {
+    font-size: 90px;
+  }
+  .footer__top {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .services__panel {
+    padding: 70px;
+    min-height: 480px;
+  }
+  .services__panel-text h3 {
+    font-size: clamp(48px, 3vw, 64px);
+  }
+  .svc-hero__title {
+    font-size: clamp(48px, 3.5vw, 72px);
+  }
+}
+
+/* ---- Large desktop (1600-1920px) ---- */
+@media (min-width: 1600px) and (max-width: 1919px) {
+  :root {
+    --container-w: 1580px;
+    --gutter: clamp(60px, 5vw, 100px);
+  }
+  .section-title {
+    font-size: clamp(42px, 3vw, 52px);
+  }
+  .hero__title {
+    font-size: clamp(40px, 3vw, 54px);
+  }
+  .blogs__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .svc-benefits__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .sol-how__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .footer__top {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
 
 /* ---- Large desktop (1280-1600px) ---- */
 @media (max-width: 1280px) {
