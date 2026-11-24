@@ -26,7 +26,7 @@ export interface PortfolioProject {
 }
 
 const GENERIC_PARAGRAPH =
-  "Do you also wish to improve your business’s online visibility? Trickle, an experienced ecommerce mobile app development company, offers end-to-end solutions to build a strong online presence. Our trained developers develop mobile apps that grab your customers’ attention and are visually appealing. We uttse the latest technologies to offer an advanced shopping experience and improve conversions. We will transform your app into a masterpiece.";
+  "Do you also wish to improve your business’s online visibility? SP Nexa Technologies, an experienced ecommerce mobile app development company, offers end-to-end solutions to build a strong online presence. Our trained developers develop mobile apps that grab your customers’ attention and are visually appealing. We uttse the latest technologies to offer an advanced shopping experience and improve conversions. We will transform your app into a masterpiece.";
 
 export const portfolioParagraph = GENERIC_PARAGRAPH;
 

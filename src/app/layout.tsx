@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Trickle Solutions - Code Fire Development",
+  title: "SP Nexa Technologies - Systems | Networks | Solutions",
   description:
-    "Trickle Solutions is a leading mobile app and website development company dedicated to delivering exceptional client experiences.",
+    "SP Nexa Technologies is a leading mobile app and website development company dedicated to delivering exceptional client experiences.",
 };
 
 // Google Fonts are loaded via a stylesheet link (same approach as the

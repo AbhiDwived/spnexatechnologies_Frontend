@@ -21,7 +21,7 @@ export function PortfolioHero() {
             Passionately crafted and <span>built</span> with love
           </h2>
           <p className="portfolio-hero__desc">
-            In addition to technology and software solutions, Trickle offers services to startups,
+            In addition to technology and software solutions, SP Nexa Technologies offers services to startups,
             global brands, and Fortune 500 companies.
           </p>
 

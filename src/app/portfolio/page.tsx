@@ -7,9 +7,9 @@ import { Blogs } from "@/components/sections/Blogs";
 import { SolutionCtaBanner } from "@/components/sections/solution";
 
 export const metadata: Metadata = {
-  title: "Portfolio - Trickle Solutions",
+  title: "Portfolio - SP Nexa Technologies",
   description:
-    "A look at the apps Trickle Solutions has designed, built, and shipped for its clients — from shopping and delivery to fitness and coworking.",
+    "A look at the apps SP Nexa Technologies has designed, built, and shipped for its clients — from shopping and delivery to fitness and coworking.",
 };
 
 export default function PortfolioPage() {

@@ -18,7 +18,7 @@
 // Solutions"; reproduced verbatim here instead (typo-grade run-on
 // "more.Start" included) per the explicit "100% match" request — the same
 // call made for the Portfolio page's "uttse" paragraph.
-const PLACEHOLDER_TITLE = "How Indian Trickle Solutions Perfect App Launches";
+const PLACEHOLDER_TITLE = "How Indian SP Nexa Technologies Perfect App Launches";
 const PLACEHOLDER_EXCERPT =
   "A mobile app launch involves several critical stages, such as architecture design, performance optimisation, platform compliance, and post-release stability.";
 const PLACEHOLDER_DATE = "January 30, 2026";
@@ -63,7 +63,7 @@ export function BlogArchiveGrid() {
         <h2 className="section-title">
           Explore the World of Development
           <br />
-          with Trickle Solutions Blog
+          with SP Nexa Technologies Blog
         </h2>
         <p className="section-sub">
           Welcome to Devherds Software Solutions Blog, your one-stop destination for insightful

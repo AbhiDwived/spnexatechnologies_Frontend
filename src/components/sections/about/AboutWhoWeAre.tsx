@@ -10,7 +10,7 @@ export function AboutWhoWeAre() {
           <div className="about-who__photo">
             <Image
               src="/assets/images/about-team-photo.png"
-              alt="A member of the Trickle Solutions team"
+              alt="A member of the SP Nexa Technologies team"
               width={480}
               height={520}
             />

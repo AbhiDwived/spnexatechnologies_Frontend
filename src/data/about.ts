@@ -11,7 +11,7 @@
 // its own paragraph, wording otherwise unchanged.
 
 export const aboutBio = [
-  "Codefire Agency is the first and only creative agency built for your true digital exploration. It's your private space to save and shape everything you envision — beautifully designed and digitally driven.",
+  "SP Nexa Technologies is the first and only creative agency built for your true digital exploration. It's your private space to save and shape everything you envision — beautifully designed and digitally driven.",
   "As a global creative agency, we know how vital it is to stay ahead of the curve. That's why we collaborate with top talent from around the world to bring bold ideas and fresh perspectives to life.",
 ];
 

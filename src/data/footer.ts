@@ -40,6 +40,7 @@ export const footerColumns: FooterColumn[] = [
 ];
 
 export const footerContact = {
-  email: "info@tricklesolutions.com",
-  phone: "+91 925 218-4451",
+  email: "info@spnexatechnologies.com",
+  phone: "+91 8433208146",
+  address: "H24 Gali No-3, Hanuman Vihar, Sector 49, Noida 201304",
 };

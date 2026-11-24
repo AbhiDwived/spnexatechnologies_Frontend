@@ -9,7 +9,7 @@ export function AboutHero() {
       <div className="about-hero__photo">
         <Image
           src="/assets/images/about-hero-bg.png"
-          alt="Trickle Solutions team at work"
+          alt="SP Nexa Technologies team at work"
           fill
           sizes="100vw"
           priority

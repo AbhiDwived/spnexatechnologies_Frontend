@@ -139,7 +139,7 @@ export const serviceDetails: ServiceDetail[] = [
     slug: "web-design",
     navLabel: "Web Design",
     metaDescription:
-      "When designing your website, the workflows must be such that it brings additional footfalls to the website — dynamic, custom, and responsive web design from Trickle Solutions.",
+      "When designing your website, the workflows must be such that it brings additional footfalls to the website — dynamic, custom, and responsive web design from SP Nexa Technologies.",
     heroTitle: "Web Design",
     heroDescription:
       "When designing your website, the workflows must be such that it brings additional footfalls to the website. You will need the services of a professional web design company to optimise your site. There are several other benefits for your company too. We will discuss this further in this article.",
@@ -227,7 +227,7 @@ export const serviceDetails: ServiceDetail[] = [
     slug: "app-development",
     navLabel: "Mobile Application Development Company",
     metaDescription:
-      "Ensuring your application is expertly developed creates a seamless user experience and leaves a lasting impression — custom, mobile, and enterprise application development from Trickle Solutions.",
+      "Ensuring your application is expertly developed creates a seamless user experience and leaves a lasting impression — custom, mobile, and enterprise application development from SP Nexa Technologies.",
     // Hero title now matches the fuller reference PDF
     // (Mobile_App_Development_Company_in_USA.pdf), which is the same page
     // as App_Development.pdf but with Awards + Process sections included
@@ -336,7 +336,7 @@ export const serviceDetails: ServiceDetail[] = [
     slug: "web-development",
     navLabel: "Web Development",
     metaDescription:
-      "Fast, responsive, and secure websites — custom, e-commerce, and web application development from Trickle Solutions.",
+      "Fast, responsive, and secure websites — custom, e-commerce, and web application development from SP Nexa Technologies.",
     // Built from the real Web_Development.pdf reference.
     heroTitle: "Web Development",
     heroDescription:
@@ -512,7 +512,7 @@ export const serviceDetails: ServiceDetail[] = [
       "Effective database analysis is key to making smarter, data-driven business decisions — accuracy, performance, and security across all your systems.",
     heroTitle: "Database Analysis",
     heroDescription:
-      "Effective database analysis is key to making smarter, data-driven business decisions. At Trickle Solutions, we examine your data to ensure accuracy, consistency, and performance across all systems. Our experts identify inefficiencies, uncover insights, and optimize your database structure to enhance reliability, speed, and scalability.",
+      "Effective database analysis is key to making smarter, data-driven business decisions. At SP Nexa Technologies, we examine your data to ensure accuracy, consistency, and performance across all systems. Our experts identify inefficiencies, uncover insights, and optimize your database structure to enhance reliability, speed, and scalability.",
     heroBullets: [
       "Data Accuracy & Integrity",
       "Performance Optimization",
@@ -598,7 +598,7 @@ export const serviceDetails: ServiceDetail[] = [
     slug: "android-development",
     navLabel: "Android Application Development Company",
     metaDescription:
-      "Dynamic, custom Android apps with interactive design, high-performance speed, and advanced security from Trickle Solutions.",
+      "Dynamic, custom Android apps with interactive design, high-performance speed, and advanced security from SP Nexa Technologies.",
     heroTitle: "Android Development Company",
     heroDescription:
       "Our developers design the Android app with strong features including interactive design, user-friendly arrangement, high-performance speed, advanced security, and efficient handling. We serve various industries including Retail and Commerce, Social Network, Travel and Tourism, Logistics.",
@@ -706,7 +706,7 @@ export const serviceDetails: ServiceDetail[] = [
       "iOS app development services including UX/UI design, implementation, QA, and integration of applications for iPhones and iPads.",
     heroTitle: "Custom iOS Application Development",
     heroDescription:
-      "iOS app development services include UX and UI design, implementation, QA, and integration of applications for iPhones and iPads. Trickle Solutions has been providing iOS app development services for the past 14 years and gained wealth of expertise across multiple industries.",
+      "iOS app development services include UX and UI design, implementation, QA, and integration of applications for iPhones and iPads. SP Nexa Technologies has been providing iOS app development services for the past 14 years and gained wealth of expertise across multiple industries.",
     heroBullets: [
       "iOS App Development",
       "Custom iOS App Design",
@@ -803,7 +803,7 @@ export const serviceDetails: ServiceDetail[] = [
     slug: "seo",
     navLabel: "Search Engine Optimization",
     metaDescription:
-      "Full-service SEO — on-page, off-page, technical, and content — tailored to your business from Trickle Solutions.",
+      "Full-service SEO — on-page, off-page, technical, and content — tailored to your business from SP Nexa Technologies.",
     // Now built from the real Search_Engine_Optimization.pdf reference.
     heroTitle: "Search Engine Optimization",
     heroDescription:

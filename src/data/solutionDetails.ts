@@ -70,7 +70,7 @@ export const solutionDetails: SolutionDetail[] = [
     ],
     introBullets,
     stats: solutionStats,
-    whyHeading: "Why is Trickle Your Trusted Partner for Fitness Mobile App Development?",
+    whyHeading: "Why is SP Nexa Technologies Your Trusted Partner for Fitness Mobile App Development?",
     whySubheading:
       "Our mobile application development team is dedicated to providing scalable, intuitive, and reliable applications that improve member engagement and business performance.",
     whyPoints: [
@@ -101,7 +101,7 @@ export const solutionDetails: SolutionDetail[] = [
     ],
     ctaBannerHeading: "Level-Up Your Fitness Brand with Us!",
     ctaBannerParagraph:
-      "To improve your exercise experience, get a safe, scalable app. Working together with Trickle, we will help you reach exercise fans and offer your services.",
+      "To improve your exercise experience, get a safe, scalable app. Working together with SP Nexa Technologies, we will help you reach exercise fans and offer your services.",
     ctaBannerLabel: "Talk to our expert",
     finalCtaHeading,
     finalCtaLabel,
@@ -134,7 +134,7 @@ export const solutionDetails: SolutionDetail[] = [
     ],
     introBullets,
     stats: solutionStats,
-    whyHeading: "Why is Trickle Your Trusted Partner for On-Demand Mobile App Development?",
+    whyHeading: "Why is SP Nexa Technologies Your Trusted Partner for On-Demand Mobile App Development?",
     whySubheading:
       "Our mobile application development team is dedicated to providing scalable, intuitive, and reliable applications that improve customer experience and business performance.",
     whyPoints: [
@@ -186,10 +186,10 @@ export const solutionDetails: SolutionDetail[] = [
     slug: "salon",
     navLabel: "Salon App",
     metaDescription:
-      "Is your salon ready for a digital upgrade? At Trickle Solutions, we're a professional salon app development company to ensure your business runs smoothly. Our primary focus is providing excellent salon scheduling app development.",
+      "Is your salon ready for a digital upgrade? At SP Nexa Technologies, we're a professional salon app development company to ensure your business runs smoothly. Our primary focus is providing excellent salon scheduling app development.",
     heroTitle: "Salon App Development Company",
     heroDescription:
-      "Is your salon ready for a digital upgrade? At Trickle Solutions, we're a professional salon app development company to ensure your business runs smoothly. Our primary focus is providing excellent salon scheduling app development that addresses the particular requirements of the modern beauty sector. Our team of experts offers salon software solutions to enhance business performance, boost client satisfaction, and streamline processes.",
+      "Is your salon ready for a digital upgrade? At SP Nexa Technologies, we're a professional salon app development company to ensure your business runs smoothly. Our primary focus is providing excellent salon scheduling app development that addresses the particular requirements of the modern beauty sector. Our team of experts offers salon software solutions to enhance business performance, boost client satisfaction, and streamline processes.",
     heroBullets: ["End-to-End Support", "24/7 Assistance", "Customized Solutions", "On-Time Delivery"],
     introHeading: "Why is Salon Scheduling App Development Beneficial for Your Business?",
     introParagraphs: [
@@ -309,7 +309,7 @@ export const solutionDetails: SolutionDetail[] = [
     ],
     introBullets,
     stats: solutionStats,
-    whyHeading: "Why is Trickle Solutions Your Trusted Partner in Food Delivery App Development?",
+    whyHeading: "Why is SP Nexa Technologies Your Trusted Partner in Food Delivery App Development?",
     whySubheading:
       "A food delivery app is a wise choice to meet rising customer needs. Our food delivery app development services can help you create a smooth-running app for your users to order food.",
     whyPoints: [
@@ -361,7 +361,7 @@ export const solutionDetails: SolutionDetail[] = [
     ],
     introBullets,
     stats: solutionStats,
-    whyHeading: "Why is Trickle Solutions Your Trusted Partner in Grocery Delivery App Development?",
+    whyHeading: "Why is SP Nexa Technologies Your Trusted Partner in Grocery Delivery App Development?",
     whySubheading:
       "We specialize in grocery delivery app development that helps businesses scale quickly while improving efficiency and taking the lead position.",
     whyPoints: [
@@ -419,10 +419,10 @@ export const solutionDetails: SolutionDetail[] = [
     slug: "healthcare",
     navLabel: "Healthcare App",
     metaDescription:
-      "What if your healthcare business could deliver care faster, smarter, and more efficiently? As a leading healthcare app development company, Trickle offers top-notch app development services that help patients achieve the best possible outcomes.",
+      "What if your healthcare business could deliver care faster, smarter, and more efficiently? As a leading healthcare app development company, SP Nexa Technologies offers top-notch app development services that help patients achieve the best possible outcomes.",
     heroTitle: "Healthcare App Development Company",
     heroDescription:
-      "What if your healthcare business could deliver care faster, smarter, and more efficiently? As a leading healthcare app development company, Trickle offers top-notch app development services that help patients achieve the best possible outcomes. We create solutions that enable healthcare providers to help patients overcome challenges in the future of healthcare. We need to ensure that your healthcare apps are user-friendly, secure, and fit for purpose.",
+      "What if your healthcare business could deliver care faster, smarter, and more efficiently? As a leading healthcare app development company, SP Nexa Technologies offers top-notch app development services that help patients achieve the best possible outcomes. We create solutions that enable healthcare providers to help patients overcome challenges in the future of healthcare. We need to ensure that your healthcare apps are user-friendly, secure, and fit for purpose.",
     heroBullets: ["HIPAA & GDPR Compliant Solutions", "24x7 Support", "Secure Applications", "Advanced Technologies"],
     introHeading: "Why Does Every Healthcare Provider Need a Custom Healthcare App Development Solution?",
     introParagraphs: [
@@ -431,7 +431,7 @@ export const solutionDetails: SolutionDetail[] = [
     ],
     introBullets: ["Effective Patient Management", "Time-Saving", "Cost Effective", "Secured Patient Record", "Remote Monitoring"],
     stats: solutionStats,
-    whyHeading: "Why is Trickle Your Trusted Partner for Healthcare Mobile App Development?",
+    whyHeading: "Why is SP Nexa Technologies Your Trusted Partner for Healthcare Mobile App Development?",
     whySubheading:
       "Our mobile application development team is dedicated to providing scalable, intuitive, and reliable applications that improve patient care and business performance.",
     whyPoints: [
@@ -481,10 +481,10 @@ export const solutionDetails: SolutionDetail[] = [
     slug: "ecommerce",
     navLabel: "Ecommerce App",
     metaDescription:
-      "Do you also wish to improve your business's online visibility? Trickle is an experienced ecommerce mobile app development company that offers end-to-end solutions to build a strong online presence.",
+      "Do you also wish to improve your business's online visibility? SP Nexa Technologies is an experienced ecommerce mobile app development company that offers end-to-end solutions to build a strong online presence.",
     heroTitle: "E-commerce App",
     heroDescription:
-      "Do you also wish to improve your business's online visibility? Trickle is an experienced ecommerce mobile app development company that offers end-to-end solutions to build a strong online presence. Our trained developers develop mobile apps that grab your customers' attention and are visually appealing. We utilize the latest technologies to offer an advanced shopping experience and improve conversions. We will transform your app into a masterpiece.",
+      "Do you also wish to improve your business's online visibility? SP Nexa Technologies is an experienced ecommerce mobile app development company that offers end-to-end solutions to build a strong online presence. Our trained developers develop mobile apps that grab your customers' attention and are visually appealing. We utilize the latest technologies to offer an advanced shopping experience and improve conversions. We will transform your app into a masterpiece.",
     heroBullets: ["End-to-End Support", "24/7 Assistance", "Customized Solutions", "On-Time Delivery", "ROI Focused"],
     introHeading: "Our Top-Rated Ecommerce Development Solutions",
     introParagraphs: [
@@ -493,7 +493,7 @@ export const solutionDetails: SolutionDetail[] = [
     ],
     introBullets: [],
     stats: solutionStats,
-    whyHeading: "Why is Trickle Solutions Your Trusted Partner in Ecommerce App Development?",
+    whyHeading: "Why is SP Nexa Technologies Your Trusted Partner in Ecommerce App Development?",
     whySubheading:
       "Our ecommerce app development team is dedicated to providing scalable, intuitive, and reliable applications that improve shopping experience and business performance.",
     whyPoints: [
@@ -545,7 +545,7 @@ export const solutionDetails: SolutionDetail[] = [
     ],
     introBullets,
     stats: solutionStats,
-    whyHeading: "Why is Trickle Solutions Your Trusted Partner in Real Estate App Development?",
+    whyHeading: "Why is SP Nexa Technologies Your Trusted Partner in Real Estate App Development?",
     whySubheading:
       "Our real estate app development team is dedicated to providing scalable, intuitive, and reliable applications that improve client experience and business performance.",
     whyPoints: [

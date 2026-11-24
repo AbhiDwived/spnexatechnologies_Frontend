@@ -19,9 +19,9 @@ export function BlogHero() {
       <div className="container blog-hero__inner">
         <h1 className="blog-hero__title">Blogs</h1>
         <span className="svc-hero__swash blog-hero__swash" aria-hidden="true" />
-        <h2 className="blog-hero__subtitle">Trickle Solutions IT Comprehensive Information Hub</h2>
+        <h2 className="blog-hero__subtitle">SP Nexa Technologies IT Comprehensive Information Hub</h2>
         <p className="blog-hero__desc">
-          Welcome to the Trickle Solutions IT Comprehensive Information Hub, your go-to destination
+          Welcome to the SP Nexa Technologies IT Comprehensive Information Hub, your go-to destination
           for the latest in technology and innovation. Dive into a wealth of resources, expert
           insights, and up-to-date information to stay ahead in the ever-evolving IT landscape.
         </p>

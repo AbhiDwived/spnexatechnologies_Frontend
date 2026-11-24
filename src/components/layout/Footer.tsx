@@ -24,6 +24,7 @@ export function Footer() {
           <h4>Contact Us</h4>
           <p className="footer__contact-line">&#128231; {footerContact.email}</p>
           <p className="footer__contact-line">&#127470;&#127475; {footerContact.phone}</p>
+          <p className="footer__contact-line">&#128205; {footerContact.address}</p>
           <p className="footer__follow-label">Follow Us on</p>
           <div className="footer__social">
             {footerSocialLinks.map((social) => (
@@ -43,17 +44,16 @@ export function Footer() {
       <div className="container footer__brand">
         <Image
           src="/assets/images/logo.png"
-          alt="Trickle Solutions"
-          width={52}
-          height={49}
+          alt="SP Nexa Technologies"
+          width={160}
+          height={53}
           className="footer__logo-mark"
         />
-        <span className="footer__logo-text">TRICKLE SOLUTIONS</span>
       </div>
 
       <div className="footer__bottom">
         <div className="container footer__bottom-inner">
-          <p>&copy; 2026 | All rights reserved</p>
+          <p>&copy; 2026 SP Nexa Technologies | All rights reserved</p>
           <p>&#9888;&#65039; Scam Alert :-</p>
           <p>
             <a href="#">Term &amp; Condition.</a> <a href="#">Privacy Policy</a>

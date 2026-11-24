@@ -4,12 +4,12 @@
 // certainly a typo for "Trickle solutions", preserved as-is here to match
 // the source; fix it in one place if/when the real copy is corrected.
 export const serviceContactInfo = {
-  email: "www.contact@tricklesolutions.com",
-  phone: "+91 2659 1564 2434",
+  email: "info@spnexatechnologies.com",
+  phone: "+91 8433208146",
   addressLines: [
-    "Tticle solutions India Pvt. Ltd.",
-    "D-185 First Floor,Pathankot",
-    ",Pathankot-160055, India",
+    "SP Nexa Technologies",
+    "H24 Gali No-3, Hanuman Vihar,",
+    "Sector 49, Noida 201304, India",
   ],
 };
 

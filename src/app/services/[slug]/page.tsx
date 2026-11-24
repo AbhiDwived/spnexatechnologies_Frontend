@@ -24,7 +24,7 @@ export async function generateMetadata({
   const detail = getServiceDetail(slug);
   if (!detail) return {};
   return {
-    title: `${detail.navLabel} - Trickle Solutions`,
+    title: `${detail.navLabel} - SP Nexa Technologies`,
     description: detail.metaDescription,
   };
 }

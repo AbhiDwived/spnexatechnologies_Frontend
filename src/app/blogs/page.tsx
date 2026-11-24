@@ -5,9 +5,9 @@ import { BlogHero, BlogArchiveGrid, BlogLeadForm } from "@/components/sections/b
 import { SolutionCtaBanner } from "@/components/sections/solution";
 
 export const metadata: Metadata = {
-  title: "Blogs - Trickle Solutions",
+  title: "Blogs - SP Nexa Technologies",
   description:
-    "Trickle Solutions IT Comprehensive Information Hub — insightful articles, tutorials, and resources on software development, programming languages, web development, and more.",
+    "SP Nexa Technologies IT Comprehensive Information Hub — insightful articles, tutorials, and resources on software development, programming languages, web development, and more.",
 };
 
 export default function BlogsPage() {

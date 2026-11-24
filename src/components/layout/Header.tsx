@@ -24,13 +24,12 @@ export function Header({ showHero = true }: HeaderProps) {
         <Link href="/" className="logo">
           <Image
             src="/assets/images/logo.png"
-            alt="Trickle Solutions"
-            width={52}
-            height={49}
+            alt="SP Nexa Technologies"
+            width={140}
+            height={46}
             className="logo__mark"
             priority
           />
-          <span className="logo__text">TRICKLE SOLUTIONS</span>
         </Link>
 
         <nav className={`nav${isNavOpen ? " nav--open" : ""}`} id="siteNav">
@@ -99,14 +98,14 @@ export function Header({ showHero = true }: HeaderProps) {
       {showHero && (
         <div className="hero container">
           <div className="hero__content">
-            <p className="hero__eyebrow">CODE FIRE DEVELOPMENT</p>
+            <p className="hero__eyebrow">SYSTEMS | NETWORKS | SOLUTIONS</p>
             <h1 className="hero__title">
               Transform your <span className="text-blue">Ideas</span> Into{" "}
               <span className="text-blue">High-Performance</span> Website and
               Mobile App
             </h1>
             <p className="hero__desc">
-              Trickle Solutions is a leading mobile app and website
+              SP Nexa Technologies is a leading mobile app and website
               development company dedicated to delivering exceptional client
               experiences. Our expert team brings innovation and skill to
               every project, staying ahead of the competition to create
@@ -114,7 +113,7 @@ export function Header({ showHero = true }: HeaderProps) {
             </p>
 
             <div className="hero__badges">
-              <a href="tel:+919888225514" className="badge-pill">
+              <a href="tel:+918433208146" className="badge-pill">
                 <Image
                   src="/assets/images/flag-india.png"
                   alt="India"
@@ -122,13 +121,13 @@ export function Header({ showHero = true }: HeaderProps) {
                   height={15}
                   className="badge-pill__flag"
                 />
-                +91 98882-25514
+                +91 8433208146
               </a>
               <a
-                href="mailto:www.contact@codefireagency.com"
+                href="mailto:info@spnexatechnologies.com"
                 className="badge-pill badge-pill--wide"
               >
-                www.contact@codefireagency.com
+                info@spnexatechnologies.com
               </a>
             </div>
 

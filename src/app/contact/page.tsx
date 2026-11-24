@@ -5,9 +5,9 @@ import { ContactHero, ContactInfo } from "@/components/sections/contact";
 import { SolutionCtaBanner } from "@/components/sections/solution";
 
 export const metadata: Metadata = {
-  title: "Contact Us - Trickle Solutions",
+  title: "Contact Us - SP Nexa Technologies",
   description:
-    "Get in touch with Trickle Solutions. Tell us about your project and our team will get back to you shortly.",
+    "Get in touch with SP Nexa Technologies. Tell us about your project and our team will get back to you shortly.",
 };
 
 export default function ContactPage() {

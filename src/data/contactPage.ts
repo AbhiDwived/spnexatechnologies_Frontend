@@ -6,15 +6,11 @@
 // left as-is since changing it wasn't asked for) because this page's PDF
 // gives a distinct, more complete address with a real map pin and rating.
 export const contactPageInfo = {
-  email: "www.contact@tricklesolutions.com",
-  phone: "+91 98882-25514",
-  addressLines: ["A-21, Neelpadam Kunj Complex, Sector 3, Vaishali, Ghaziabad, Uttar Pradesh 201010"],
+  email: "info@spnexatechnologies.com",
+  phone: "+91 8433208146",
+  addressLines: ["H24 Gali No-3, Hanuman Vihar, Sector 49, Noida 201304, India"],
   rating: 4.5,
   reviewCount: 299,
-  // A real, working Google Maps search link for the address above — used
-  // instead of an embedded map image/screenshot, since this project has
-  // no actual Maps embed to show and a fake static map graphic would
-  // misrepresent itself as a live map.
   mapsSearchUrl:
-    "https://www.google.com/maps/search/?api=1&query=A-21,+Neelpadam+Kunj+Complex,+Sector+3,+Vaishali,+Ghaziabad,+Uttar+Pradesh+201010",
+    "https://www.google.com/maps/search/?api=1&query=H24+Gali+No-3+Hanuman+Vihar+Sector+49+Noida+201304",
 };
