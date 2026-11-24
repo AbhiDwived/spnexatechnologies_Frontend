@@ -25,8 +25,8 @@ export function Header({ showHero = true }: HeaderProps) {
           <Image
             src="/assets/images/logo.png"
             alt="SP Nexa Technologies"
-            width={140}
-            height={46}
+            width={260}
+            height={64}
             className="logo__mark"
             priority
           />

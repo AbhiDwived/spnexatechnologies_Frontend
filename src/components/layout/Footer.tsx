@@ -45,8 +45,8 @@ export function Footer() {
         <Image
           src="/assets/images/logo.png"
           alt="SP Nexa Technologies"
-          width={160}
-          height={53}
+          width={280}
+          height={70}
           className="footer__logo-mark"
         />
       </div>
