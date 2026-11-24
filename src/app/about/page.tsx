@@ -1,38 +1,25 @@
-import React from "react";
 import type { Metadata } from "next";
-import Navbar from "@/components/Navbar";
-import AboutHero from "@/components/AboutHero";
-import AboutWhoWeAre from "@/components/AboutWhoWeAre";
-import AboutStats from "@/components/AboutStats";
-import AwardsSection from "@/components/AwardsSection";
-import TrickleFooter from "@/components/TrickleFooter";
+import { Header } from "@/components/layout/Header";
+import { Footer } from "@/components/layout/Footer";
+import { Stats } from "@/components/sections";
+import { ServiceAwards } from "@/components/sections/service";
+import { AboutHero, AboutWhoWeAre } from "@/components/sections/about";
 
 export const metadata: Metadata = {
-  title: "About Us | SP NEXA Technologies",
+  title: "About - Trickle Solutions",
   description:
-    "SP NEXA Technologies is the first natively iterative agency built for your true digital exploration. Learn more about our mission, vision, team, achievements, and awards.",
+    "Trickle Solutions is a leading mobile app and website development company — learn who we are, our mission and vision, and the awards that inspire our standards.",
 };
 
 export default function AboutPage() {
   return (
-    <main className="min-h-screen bg-[#0A3D78] text-slate-100 flex flex-col font-sans antialiased selection:bg-blue-500 selection:text-white">
-      {/* Sticky Navigation Bar with active tab set to About */}
-      <Navbar defaultActive="About" />
-
-      {/* Hero Section: Office Collaboration Banner & Overlapping Title */}
+    <>
+      <Header showHero={false} />
       <AboutHero />
-
-      {/* Who We Are: Developer Portrait, Philosophy, Mission & Vision, and CTA */}
       <AboutWhoWeAre />
-
-      {/* Stats Section: 4 Dashed Stat Cards + 15+ Years Experience Orb */}
-      <AboutStats />
-
-      {/* Awards Section: GoodFirms, Top 1000 Companies, Clutch */}
-      <AwardsSection />
-
-      {/* TS SP NEXA Technologies Footer */}
-      <TrickleFooter />
-    </main>
+      <Stats />
+      <ServiceAwards />
+      <Footer />
+    </>
   );
 }

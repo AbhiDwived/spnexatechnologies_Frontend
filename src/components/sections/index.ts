@@ -1,0 +1,9 @@
+export { Services } from "./Services";
+export { SectionTransition } from "./SectionTransition";
+export { Stats } from "./Stats";
+export { Process } from "./Process";
+export { WhyChooseUs } from "./WhyChooseUs";
+export { Industries } from "./Industries";
+export { IndustriesAlt } from "./IndustriesAlt";
+export { Testimonials } from "./Testimonials";
+export { Blogs } from "./Blogs";

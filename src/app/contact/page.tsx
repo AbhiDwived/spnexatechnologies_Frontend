@@ -1,34 +1,29 @@
-import React from "react";
 import type { Metadata } from "next";
-import Navbar from "@/components/Navbar";
-import ContactHero from "@/components/ContactHero";
-import ContactMap from "@/components/ContactMap";
-import ContactTransformBanner from "@/components/ContactTransformBanner";
-import TrickleFooter from "@/components/TrickleFooter";
+import { Header } from "@/components/layout/Header";
+import { Footer } from "@/components/layout/Footer";
+import { ContactHero, ContactInfo } from "@/components/sections/contact";
+import { SolutionCtaBanner } from "@/components/sections/solution";
 
 export const metadata: Metadata = {
-  title: "Contact Us | SP NEXA Technologies",
+  title: "Contact Us - Trickle Solutions",
   description:
-    "Unleash your business potential now! Contact SP NEXA Technologies for end-to-end mobile and web development, AI integration, and digital transformation.",
+    "Get in touch with Trickle Solutions. Tell us about your project and our team will get back to you shortly.",
 };
 
 export default function ContactPage() {
   return (
-    <main className="min-h-screen bg-[#072B54] text-slate-100 flex flex-col font-sans antialiased selection:bg-blue-500 selection:text-white">
-      {/* Sticky Navigation Bar with active tab set to Contact Us */}
-      <Navbar defaultActive="Contact Us" />
-
-      {/* Contact Hero & Floating Form Section */}
+    <>
+      <Header showHero={false} />
       <ContactHero />
-
-      {/* Google Maps Location Section */}
-      <ContactMap />
-
-      {/* Digital Transformation Banner with Expert */}
-      <ContactTransformBanner />
-
-      {/* SP NEXA Technologies Footer */}
-      <TrickleFooter />
-    </main>
+      <ContactInfo />
+      <SolutionCtaBanner
+        variant="dark"
+        heading="Unlock Effortless and Exceptional Digital Transformation."
+        ctaLabel="Talk to our expert"
+        illustrationLabel="CONTACT"
+        ctaHref="#contact-form"
+      />
+      <Footer />
+    </>
   );
 }

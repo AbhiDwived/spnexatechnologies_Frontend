@@ -1,0 +1,17 @@
+export { ServiceHero } from "./ServiceHero";
+export { UxIllustration } from "./UxIllustration";
+export { WebDesignIllustration } from "./WebDesignIllustration";
+export { AppDevelopmentIllustration } from "./AppDevelopmentIllustration";
+export { AndroidIllustration } from "./AndroidIllustration";
+export { IosIllustration } from "./IosIllustration";
+export { DigitalMarketingIllustration } from "./DigitalMarketingIllustration";
+export { DatabaseAnalysisIllustration } from "./DatabaseAnalysisIllustration";
+export { SeoIllustration } from "./SeoIllustration";
+export { WebDevelopmentIllustration } from "./WebDevelopmentIllustration";
+export { SERVICE_ILLUSTRATIONS } from "./serviceIllustrations";
+export { ServiceBenefits } from "./ServiceBenefits";
+export { ServiceStatsBar } from "./ServiceStatsBar";
+export { ServiceFaq } from "./ServiceFaq";
+export { ServiceContact } from "./ServiceContact";
+export { ServiceAwards } from "./ServiceAwards";
+export { ServiceProcess } from "./ServiceProcess";

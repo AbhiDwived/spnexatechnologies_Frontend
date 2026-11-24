@@ -1,38 +1,30 @@
-import React from "react";
 import type { Metadata } from "next";
-import Navbar from "@/components/Navbar";
-import BlogHero from "@/components/BlogHero";
-import BlogList from "@/components/BlogList";
-import BlogConsultation from "@/components/BlogConsultation";
-import PortfolioCtaBanner from "@/components/PortfolioCtaBanner";
-import TrickleFooter from "@/components/TrickleFooter";
+import { Header } from "@/components/layout/Header";
+import { Footer } from "@/components/layout/Footer";
+import { BlogHero, BlogArchiveGrid, BlogLeadForm } from "@/components/sections/blog";
+import { SolutionCtaBanner } from "@/components/sections/solution";
 
 export const metadata: Metadata = {
-  title: "Blogs & Insights | SP NEXA Technologies",
+  title: "Blogs - Trickle Solutions",
   description:
-    "Welcome to the SP NEXA Technologies IT Comprehensive Information Hub, your go-to destination for the latest in technology and innovation.",
+    "Trickle Solutions IT Comprehensive Information Hub — insightful articles, tutorials, and resources on software development, programming languages, web development, and more.",
 };
 
 export default function BlogsPage() {
   return (
-    <main className="min-h-screen bg-white text-slate-900 flex flex-col font-sans antialiased selection:bg-blue-500 selection:text-white">
-      {/* Sticky Navigation Bar with active tab set to Blogs */}
-      <Navbar defaultActive="Blogs" />
-
-      {/* Blogs Hero Section: Hands Typing Banner & Information Hub */}
+    <>
+      <Header showHero={false} />
       <BlogHero />
-
-      {/* Blog Articles Grid with Load More button */}
-      <BlogList />
-
-      {/* Let's Build It Right: 30-min Consultation Request Form */}
-      <BlogConsultation />
-
-      {/* Ready to take the first step: Pointing Man Banner */}
-      <PortfolioCtaBanner />
-
-      {/* SP NEXA Technologies Footer */}
-      <TrickleFooter />
-    </main>
+      <BlogArchiveGrid />
+      <BlogLeadForm />
+      <SolutionCtaBanner
+        variant="light"
+        heading={"Ready to take the first step\nYour ideas deserve the right attention."}
+        ctaLabel="Start Your Project"
+        illustrationLabel="BLOGS"
+        ctaHref="/contact"
+      />
+      <Footer />
+    </>
   );
 }
